@@ -4,21 +4,21 @@
 ### 1. Einleitung
 
 #### 1.1 Übersicht
-> (Was sind die Verkaufsargumente bzw. Alleinstellungsmerkmale Ihrer Software?)
+(Was sind die Verkaufsargumente bzw. Alleinstellungsmerkmale Ihrer Software?)
 
 #### 1.2 Geltungsbereich
-> (Was wird in diesem Dokument behandelt (nicht behandelt)? Ist es für Ihr gesamtes System oder ein Subsystem? Deckt es sowohl funktionale als auch nichtfunktionale Anforderungen ab? (Werden Sie einige Anforderungen in ein anderes Dokument auslagern?))
+(Was wird in diesem Dokument behandelt (nicht behandelt)? Ist es für Ihr gesamtes System oder ein Subsystem? Deckt es sowohl funktionale als auch nichtfunktionale Anforderungen ab? (Werden Sie einige Anforderungen in ein anderes Dokument auslagern?))
 
 #### 1.3 Definitionen, Akronyme und Abkürzungen
-> (Definitionen aller Begriffe, Akronyme und Abkürzungen, die für die ordnungsgemäße Interpretation dieses Dokuments erforderlich sind.)
+(Definitionen aller Begriffe, Akronyme und Abkürzungen, die für die ordnungsgemäße Interpretation dieses Dokuments erforderlich sind.)
 
 #### 1.4 Referenzen
-> (Eine vollständige Liste aller referenzierten Dokumente. Jedes Dokument sollte anhand von Titel, Datum und Veröffentlichungsorganisation identifiziert werden. Sie können auch Hyperlinks einfügen, um die Referenzen bequem zu öffnen.)
+(Eine vollständige Liste aller referenzierten Dokumente. Jedes Dokument sollte anhand von Titel, Datum und Veröffentlichungsorganisation identifiziert werden. Sie können auch Hyperlinks einfügen, um die Referenzen bequem zu öffnen.)
 
 
 ### 2. Funktionale Anforderungen
 Dieser Abschnitt beschreibt die funktionalen Anforderungen für die To-Do-Competition-App. Es soll als Grundlage für die Entwicklung, das Testen und die Wartung des Systems dienen.
-#### 2.1 Benutzerkonto-Verwaltung (UML)
+#### 2.1 Benutzerkonto-Verwaltung [UML](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/UserAccountManager.pdf)
 
 ##### 2.1.1 Registrierung und Anmeldung
 Benutzer können sich registrieren oder anmelden, um auf die App zuzugreifen.
@@ -29,7 +29,7 @@ Ergebnis: Aktualisierung der Benutzerdaten im System.
 Benutzer können ihr Passwort zurücksetzen, falls sie es vergessen haben.
 Ergebnis: E-Mail mit Link zum Zurücksetzen des Passworts wird versendet.
 
-#### 2.2 To-Do-Listen-Verwaltung (UML)
+#### 2.2 To-Do-Listen-Verwaltung [UML](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/ToDoListManagement.pdf)
 
 ##### 2.2.1 To-Do-Liste erstellen
 Benutzer können neue To-Do-Listen erstellen und diese benennen.
@@ -39,10 +39,10 @@ Benutzer können Aufgaben zu ihren To-Do-Listen hinzufügen.
 Benutzer können vorhandene Aufgaben bearbeiten (Titel, Beschreibung, etc.).
 ##### 2.2.4 To-Do-Item löschen
 Benutzer können Aufgaben aus einer To-Do-Liste löschen.
-###### 2.2.5 To-Do-Item als erledigt markieren
+##### 2.2.5 To-Do-Item als erledigt markieren
 Benutzer können Aufgaben als erledigt markieren und erhalten dafür Punkte.
 
-#### 2.3 Freunde-Verwaltung (UML)
+#### 2.3 Freunde-Verwaltung [UML] (https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/FriendListManager.pdf)
 
 ##### 2.3.1 Freunde finden
 Benutzer können nach Freunden suchen
@@ -68,4 +68,4 @@ Das User-Interface sollte sich an verschiedene Bildschirmgrößen (verschiedene 
 
 
 ### 4. Technische Einschränkungen
-> (Geben Sie alle wichtigen Einschränkungen, Annahmen oder Abhängigkeiten an, z. B. alle Einschränkungen darüber, welcher Servertyp verwendet werden soll, welche Art von Open-Source-Lizenz eingehalten werden muss usw.)
+(Geben Sie alle wichtigen Einschränkungen, Annahmen oder Abhängigkeiten an, z. B. alle Einschränkungen darüber, welcher Servertyp verwendet werden soll, welche Art von Open-Source-Lizenz eingehalten werden muss usw.)
