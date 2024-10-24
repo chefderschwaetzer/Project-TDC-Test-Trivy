@@ -29,6 +29,8 @@ Ergebnis: Aktualisierung der Benutzerdaten im System.
 Benutzer können ihr Passwort zurücksetzen, falls sie es vergessen haben.
 Ergebnis: E-Mail mit Link zum Zurücksetzen des Passworts wird versendet.
 
+![user profile](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/profile.png)
+
 #### 2.2 To-Do-Listen-Verwaltung [(UML)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/ToDoListManagement.pdf)
 
 ##### 2.2.1 To-Do-Liste erstellen
