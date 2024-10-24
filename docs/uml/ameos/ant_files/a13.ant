@@ -1,0 +1,78 @@
+FileObject 1
+{
+    { Name "a13" }
+    { Type ObjectAnnotation }
+    { GUID "UID_31BF601A-41B8-4e1c-9697-098A506B418E" }
+}
+
+NodeObject 99999
+{
+    { Name "Remove _done_-flag" }
+    { Type UmlUseCase }
+    { ObjectId 217 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_645A143B-EFEB-4291-AE12-D70FC4942C96" }
+}
+
+NoteObject 2
+{
+    { Type UmlUseCaseDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 223 }
+}
+
+ItemObject 3
+{
+    { Type UmlUseCasePrecondition }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 224 }
+}
+
+ItemObject 4
+{
+    { Type UmlUseCasePostcondition }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 225 }
+}
+
+ItemObject 5
+{
+    { Type UmlUseCaseException }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 226 }
+}
+
+NoteObject 6
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 228 }
+}
+
+NoteObject 7
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 230 }
+}
+
+ItemObject 8
+{
+    { Type ObjectName }
+    { Value "Remove _done_-flag" }
+    { GuidRef "" }
+    { NoteId 7 }
+    { ObjectId 231 }
+}
+

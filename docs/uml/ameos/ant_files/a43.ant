@@ -1,0 +1,78 @@
+FileObject 1
+{
+    { Name "a43" }
+    { Type ObjectAnnotation }
+    { GUID "UID_AC614679-3CAE-455e-9C8A-EF23C29CF4C6" }
+}
+
+NodeObject 99999
+{
+    { Name "Create Character" }
+    { Type UmlUseCase }
+    { ObjectId 1604 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_B7BCE4FA-0D48-4bf4-852B-FDB16DDBE5EF" }
+}
+
+NoteObject 2
+{
+    { Type UmlUseCaseDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 1610 }
+}
+
+ItemObject 3
+{
+    { Type UmlUseCasePrecondition }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 1611 }
+}
+
+ItemObject 4
+{
+    { Type UmlUseCasePostcondition }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 1612 }
+}
+
+ItemObject 5
+{
+    { Type UmlUseCaseException }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 1613 }
+}
+
+NoteObject 6
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 1615 }
+}
+
+NoteObject 7
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 1617 }
+}
+
+ItemObject 8
+{
+    { Type ObjectName }
+    { Value "Create Character" }
+    { GuidRef "" }
+    { NoteId 7 }
+    { ObjectId 1618 }
+}
+

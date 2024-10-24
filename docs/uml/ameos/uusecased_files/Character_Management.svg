@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<svg
+	baseProfile="full"
+	height="100%"
+	version="1.1"
+	viewBox="-10 -10 818 398"
+	width="100%"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:ev="http://www.w3.org/2001/xml-events"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+
+	<g>
+
+		<polygon
+			fill="rgb(229, 229, 229)"
+			points="71, 10 757, 10 757, 378 71, 378 71, 10 "
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="414"
+			y="21.620128">
+			Character Manager
+		</text>
+
+	</g>
+
+	<text
+		fill="rgb(0, 0, 0)"
+		font-family="Arial"
+		font-size="8.853431"
+		text-anchor="end"
+		x="756"
+		y="4.913266">
+		This System
+	</text>
+
+	<g>
+
+		<path
+			d="M 251.000000 89.000000 A 59 19 0 1 1 250.999971 88.981000 "
+			fill="rgb(229, 229, 229)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="192"
+			y="91.766697">
+			Create Character
+		</text>
+
+	</g>
+
+	<g>
+
+		<path
+			d="M 254.000000 183.000000 A 62 19 0 1 1 253.999969 182.981000 "
+			fill="rgb(229, 229, 229)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="192"
+			y="185.766697">
+			Edit Character
+		</text>
+
+	</g>
+
+	<g>
+
+		<path
+			d="M 259.000000 282.000000 A 63 21 0 1 1 258.999969 281.979000 "
+			fill="rgb(229, 229, 229)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="196"
+			y="284.766697">
+			Level-Up Character
+		</text>
+
+	</g>
+
+	<g>
+
+		<path
+			d="M 658.000000 42.000000 A 55 19 0 1 1 657.999973 41.981000 "
+			fill="rgb(229, 229, 229)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="603"
+			y="44.766697">
+			Set Color
+		</text>
+
+	</g>
+
+	<g>
+
+		<path
+			d="M 662.000000 93.000000 A 57 19 0 1 1 661.999972 92.981000 "
+			fill="rgb(229, 229, 229)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="605"
+			y="95.766697">
+			Set Face
+		</text>
+
+	</g>
+
+	<g>
+
+		<path
+			d="M 664.000000 145.000000 A 58 20 0 1 1 663.999971 144.980000 "
+			fill="rgb(229, 229, 229)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="606"
+			y="147.766697">
+			Set Hairstyle
+		</text>
+
+	</g>
+
+	<g>
+
+		<path
+			d="M 665.000000 197.000000 A 58 20 0 1 1 664.999971 196.980000 "
+			fill="rgb(229, 229, 229)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="607"
+			y="199.766697">
+			Set Outfit
+		</text>
+
+	</g>
+
+	<g>
+
+		<path
+			d="M 420.000000 280.000000 A 60 21 0 1 1 419.999970 279.979000 "
+			fill="rgb(229, 229, 229)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="360"
+			y="282.766697">
+			Choose Perk
+		</text>
+
+	</g>
+
+	<g>
+
+		<path
+			d="M 578.000000 281.000000 A 61 23 0 1 1 577.999970 280.977000 "
+			fill="rgb(229, 229, 229)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="517"
+			y="283.766697">
+			Update Stats
+		</text>
+
+	</g>
+
+	<g>
+
+		<path
+			d="M 737.000000 281.000000 A 61 23 0 1 1 736.999970 280.977000 "
+			fill="rgb(229, 229, 229)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="676"
+			y="283.766697">
+			Buy Outfit
+		</text>
+
+	</g>
+
+	<g>
+
+		<polygon
+			fill="rgb(0, 0, 0)"
+			points="20, 173 20, 177 0, 177 0, 181 20, 181 20, 187 9, 202 13, 202 22, 189 31, 202 35, 202 24, 187 24, 181 44, 181 44, 177 24, 177 24, 173 "
+			stroke="none"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<path
+			d="M 29.000000 167.500000 A 7 7 0 1 1 28.999997 167.492500 "
+			fill="rgb(0, 0, 0)"
+			stroke="none"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<path
+			d="M 26.000000 167.500000 A 4 3 0 1 1 25.999998 167.496500 "
+			fill="rgb(229, 229, 229)"
+			stroke="none"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="22"
+			y="214.620128">
+			User
+		</text>
+
+	</g>
+
+	<g>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="550"
+			x2="539"
+			y1="37"
+			y2="46"/>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="537"
+			x2="550"
+			y1="33"
+			y2="37"/>
+
+		<polyline
+			fill="none"
+			points="251, 90 276, 86 276, 86 286, 84 299, 82 312, 80 326, 77 340, 75 353, 72 365, 70 376, 68 376, 68 400, 64 400, 64 425, 59 425, 59 436, 57 448, 55 461, 53 475, 50 489, 48 502, 46 515, 44 525, 42 525, 42 550, 37 "
+			stroke="rgb(0, 0, 0)"
+			stroke-dasharray="17.706862, 8.853431"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="400"
+			y="62.766697">
+			«include»
+		</text>
+
+	</g>
+
+	<g>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="551"
+			x2="538"
+			y1="87"
+			y2="93"/>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="538"
+			x2="551"
+			y1="81"
+			y2="87"/>
+
+		<polyline
+			fill="none"
+			points="251, 90 276, 90 276, 90 286, 90 299, 89 312, 89 326, 89 340, 89 353, 89 365, 89 376, 89 376, 89 400, 89 400, 89 425, 89 425, 89 436, 89 448, 88 461, 88 476, 88 490, 88 503, 88 515, 88 526, 87 526, 87 551, 87 "
+			stroke="rgb(0, 0, 0)"
+			stroke-dasharray="17.706862, 8.853431"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="400"
+			y="87.766697">
+			«include»
+		</text>
+
+	</g>
+
+	<g>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="550"
+			x2="537"
+			y1="139"
+			y2="143"/>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="539"
+			x2="550"
+			y1="131"
+			y2="139"/>
+
+		<polyline
+			fill="none"
+			points="251, 90 276, 94 276, 94 286, 96 299, 98 312, 100 326, 102 340, 104 353, 107 365, 109 376, 111 376, 111 400, 115 400, 115 425, 119 425, 119 436, 120 448, 122 461, 125 475, 127 489, 129 502, 131 515, 133 525, 135 525, 135 550, 139 "
+			stroke="rgb(0, 0, 0)"
+			stroke-dasharray="17.706862, 8.853431"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="400"
+			y="113.766697">
+			«include»
+		</text>
+
+	</g>
+
+	<g>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="551"
+			x2="537"
+			y1="192"
+			y2="194"/>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="541"
+			x2="551"
+			y1="182"
+			y2="192"/>
+
+		<polyline
+			fill="none"
+			points="250, 93 275, 101 275, 101 286, 104 298, 109 311, 113 326, 118 340, 122 353, 127 365, 131 376, 134 376, 134 400, 142 400, 142 425, 151 425, 151 436, 154 448, 158 461, 163 476, 167 490, 172 503, 176 515, 180 526, 183 526, 183 551, 192 "
+			stroke="rgb(0, 0, 0)"
+			stroke-dasharray="17.706862, 8.853431"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="400"
+			y="141.766697">
+			«include»
+		</text>
+
+	</g>
+
+	<g>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="251"
+			x2="260"
+			y1="178"
+			y2="167"/>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="265"
+			x2="251"
+			y1="178"
+			y2="178"/>
+
+		<polyline
+			fill="none"
+			points="549, 46 524, 57 524, 57 519, 60 513, 63 506, 66 498, 69 490, 72 483, 76 474, 80 467, 83 459, 86 451, 90 443, 93 437, 96 430, 99 425, 101 425, 101 400, 112 400, 112 375, 123 375, 123 365, 128 353, 133 340, 139 326, 145 312, 151 298, 157 286, 163 276, 167 276, 167 251, 178 "
+			stroke="rgb(0, 0, 0)"
+			stroke-dasharray="17.706862, 8.853431"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="425"
+			y="100.766697">
+			«extend»
+		</text>
+
+	</g>
+
+	<g>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="254"
+			x2="264"
+			y1="183"
+			y2="173"/>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="268"
+			x2="254"
+			y1="185"
+			y2="183"/>
+
+		<polyline
+			fill="none"
+			points="548, 97 524, 104 524, 104 518, 106 512, 107 506, 109 498, 111 490, 114 483, 116 475, 118 467, 120 459, 123 452, 125 445, 127 438, 129 432, 131 426, 133 426, 133 401, 140 401, 140 377, 147 377, 147 367, 150 354, 154 341, 157 328, 161 314, 165 301, 169 288, 172 279, 176 279, 176 254, 183 "
+			stroke="rgb(0, 0, 0)"
+			stroke-dasharray="17.706862, 8.853431"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="426"
+			y="131.766697">
+			«extend»
+		</text>
+
+	</g>
+
+	<g>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="253"
+			x2="265"
+			y1="187"
+			y2="179"/>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="266"
+			x2="253"
+			y1="191"
+			y2="187"/>
+
+		<polyline
+			fill="none"
+			points="548, 145 524, 149 524, 149 517, 149 511, 151 505, 151 497, 152 490, 154 482, 154 474, 156 466, 157 459, 158 451, 159 444, 160 437, 161 431, 162 425, 163 425, 163 400, 166 400, 166 376, 169 376, 169 366, 171 353, 173 340, 174 327, 176 313, 178 300, 181 288, 182 278, 183 278, 183 253, 187 "
+			stroke="rgb(0, 0, 0)"
+			stroke-dasharray="17.706862, 8.853431"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="425"
+			y="161.766697">
+			«extend»
+		</text>
+
+	</g>
+
+	<g>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="252"
+			x2="264"
+			y1="188"
+			y2="183"/>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="264"
+			x2="252"
+			y1="195"
+			y2="188"/>
+
+		<polyline
+			fill="none"
+			points="549, 199 524, 198 524, 198 519, 197 513, 197 506, 197 498, 196 490, 196 483, 196 475, 196 467, 196 459, 195 452, 195 444, 194 437, 194 431, 194 425, 194 425, 194 400, 193 400, 193 376, 192 376, 192 365, 192 353, 192 340, 191 326, 191 313, 190 299, 190 287, 190 277, 189 277, 189 252, 188 "
+			stroke="rgb(0, 0, 0)"
+			stroke-dasharray="17.706862, 8.853431"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="425"
+			y="192.766697">
+			«extend»
+		</text>
+
+	</g>
+
+	<g>
+
+		<polyline
+			fill="none"
+			points="39, 168 47, 162 47, 162 50, 159 53, 156 57, 154 61, 150 64, 147 68, 144 72, 141 75, 138 79, 136 86, 129 86, 129 94, 123 94, 123 98, 120 102, 117 106, 113 110, 110 114, 106 118, 102 122, 100 126, 97 126, 97 133, 90 "
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+	</g>
+
+	<g>
+
+		<polyline
+			fill="none"
+			points="44, 181 51, 181 51, 181 80, 181 80, 181 87, 181 87, 181 95, 181 95, 181 124, 181 124, 181 131, 181 "
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+	</g>
+
+	<g>
+
+		<polyline
+			fill="none"
+			points="40, 193 48, 200 48, 200 51, 203 54, 206 58, 209 62, 213 66, 216 69, 220 73, 223 77, 226 80, 229 87, 236 87, 236 95, 243 95, 243 98, 246 102, 250 107, 254 111, 258 115, 261 119, 266 123, 269 127, 273 127, 273 134, 279 "
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+	</g>
+
+	<g>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="259"
+			x2="271"
+			y1="282"
+			y2="275"/>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="271"
+			x2="259"
+			y1="288"
+			y2="282"/>
+
+		<polyline
+			fill="none"
+			points="301, 281 297, 281 297, 281 297, 281 296, 281 295, 281 294, 281 293, 281 292, 281 291, 281 289, 281 288, 281 287, 281 286, 281 286, 281 284, 281 284, 281 284, 281 280, 281 280, 281 277, 281 277, 281 275, 281 273, 281 271, 281 270, 282 268, 282 266, 282 264, 282 262, 282 262, 282 259, 282 "
+			stroke="rgb(0, 0, 0)"
+			stroke-dasharray="17.706862, 8.853431"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="284"
+			y="279.766697">
+			«extend»
+		</text>
+
+	</g>
+
+	<g>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="250"
+			x2="264"
+			y1="294"
+			y2="293"/>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="259"
+			x2="250"
+			y1="304"
+			y2="294"/>
+
+		<polyline
+			fill="none"
+			points="461, 291 445, 299 445, 299 441, 301 437, 304 432, 306 427, 308 422, 311 416, 313 410, 315 403, 317 397, 320 390, 322 383, 323 376, 324 368, 325 360, 326 360, 326 353, 326 345, 325 338, 324 331, 323 323, 321 315, 319 308, 317 302, 315 295, 313 289, 311 283, 308 278, 306 273, 304 268, 302 268, 302 250, 294 "
+			stroke="rgb(0, 0, 0)"
+			stroke-dasharray="17.706862, 8.853431"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="360"
+			y="324.766697">
+			«extend»
+		</text>
+
+	</g>
+
+	<g>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="231"
+			x2="245"
+			y1="300"
+			y2="299"/>
+
+		<line
+			fill="rgb(0, 0, 0)"
+			stroke="rgb(0, 0, 0)"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"
+			x1="240"
+			x2="231"
+			y1="311"
+			y2="300"/>
+
+		<polyline
+			fill="none"
+			points="622, 292 604, 303 604, 303 600, 305 595, 308 590, 311 584, 314 578, 317 571, 321 564, 324 557, 328 550, 331 542, 335 534, 338 526, 342 517, 344 508, 347 508, 347 493, 351 477, 354 461, 356 444, 358 427, 358 410, 357 393, 355 376, 351 376, 351 365, 349 356, 347 345, 344 335, 341 326, 338 316, 335 307, 331 298, 329 290, 325 282, 322 274, 319 267, 316 261, 313 255, 311 255, 311 231, 300 "
+			stroke="rgb(0, 0, 0)"
+			stroke-dasharray="17.706862, 8.853431"
+			stroke-width="0.885343"
+			style="stroke-linejoin:bevel;stroke-linecap:square;"/>
+
+		<text
+			fill="rgb(0, 0, 0)"
+			font-family="Arial"
+			font-size="8.853431"
+			text-anchor="middle"
+			x="444"
+			y="356.766697">
+			«extend»
+		</text>
+
+	</g>
+
+</svg>
+

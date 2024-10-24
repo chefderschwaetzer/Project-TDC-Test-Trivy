@@ -1,0 +1,40 @@
+FileObject 1
+{
+    { Name "a16" }
+    { Type ObjectAnnotation }
+    { GUID "UID_31BF6CFB-EA79-4329-B6DA-9A8C0E0CA783" }
+}
+
+FileObject 99999
+{
+    { Name "Create_to_do" }
+    { Type UmlUseCaseDiagram }
+    { ObjectId 127 }
+    { AnnotFileId 1 }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 274 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 276 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Create_to_do" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 277 }
+}
+

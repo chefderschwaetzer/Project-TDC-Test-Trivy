@@ -1,0 +1,78 @@
+FileObject 1
+{
+    { Name "a17" }
+    { Type ObjectAnnotation }
+    { GUID "UID_2A736E08-10DC-4d02-80F3-E35A99C870CA" }
+}
+
+NodeObject 99999
+{
+    { Name "Delete To-Do-List" }
+    { Type UmlUseCase }
+    { ObjectId 285 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_CAB7D01C-C0E4-4b3d-81A7-789E0FC9E9AF" }
+}
+
+NoteObject 2
+{
+    { Type UmlUseCaseDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 291 }
+}
+
+ItemObject 3
+{
+    { Type UmlUseCasePrecondition }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 292 }
+}
+
+ItemObject 4
+{
+    { Type UmlUseCasePostcondition }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 293 }
+}
+
+ItemObject 5
+{
+    { Type UmlUseCaseException }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 294 }
+}
+
+NoteObject 6
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 296 }
+}
+
+NoteObject 7
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 298 }
+}
+
+ItemObject 8
+{
+    { Type ObjectName }
+    { Value "Delete To-Do-List" }
+    { GuidRef "" }
+    { NoteId 7 }
+    { ObjectId 299 }
+}
+

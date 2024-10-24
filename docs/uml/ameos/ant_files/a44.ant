@@ -1,0 +1,78 @@
+FileObject 1
+{
+    { Name "a44" }
+    { Type ObjectAnnotation }
+    { GUID "UID_9D7ACF6F-541B-4272-99D0-5AFB703884E8" }
+}
+
+NodeObject 99999
+{
+    { Name "Set Outfit" }
+    { Type UmlUseCase }
+    { ObjectId 1634 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_066F5A98-7E3A-4075-BB5C-CF146C118A83" }
+}
+
+NoteObject 2
+{
+    { Type UmlUseCaseDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 1640 }
+}
+
+ItemObject 3
+{
+    { Type UmlUseCasePrecondition }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 1641 }
+}
+
+ItemObject 4
+{
+    { Type UmlUseCasePostcondition }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 1642 }
+}
+
+ItemObject 5
+{
+    { Type UmlUseCaseException }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 1643 }
+}
+
+NoteObject 6
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 1645 }
+}
+
+NoteObject 7
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 1647 }
+}
+
+ItemObject 8
+{
+    { Type ObjectName }
+    { Value "Set Outfit" }
+    { GuidRef "" }
+    { NoteId 7 }
+    { ObjectId 1648 }
+}
+

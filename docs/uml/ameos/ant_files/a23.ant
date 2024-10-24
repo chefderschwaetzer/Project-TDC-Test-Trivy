@@ -1,0 +1,78 @@
+FileObject 1
+{
+    { Name "a23" }
+    { Type ObjectAnnotation }
+    { GUID "UID_A8FDBA64-3ECB-4184-B8AB-BF99C0E50B8B" }
+}
+
+NodeObject 99999
+{
+    { Name "Create To-Do-List" }
+    { Type UmlUseCase }
+    { ObjectId 282 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_FD39FCB5-E456-42b1-ACCD-F2A81882C74D" }
+}
+
+NoteObject 2
+{
+    { Type UmlUseCaseDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 409 }
+}
+
+ItemObject 3
+{
+    { Type UmlUseCasePrecondition }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 410 }
+}
+
+ItemObject 4
+{
+    { Type UmlUseCasePostcondition }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 411 }
+}
+
+ItemObject 5
+{
+    { Type UmlUseCaseException }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 412 }
+}
+
+NoteObject 6
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 414 }
+}
+
+NoteObject 7
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 416 }
+}
+
+ItemObject 8
+{
+    { Type ObjectName }
+    { Value "Create To-Do-List" }
+    { GuidRef "" }
+    { NoteId 7 }
+    { ObjectId 417 }
+}
+
