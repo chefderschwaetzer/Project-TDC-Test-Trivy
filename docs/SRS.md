@@ -29,7 +29,7 @@ Ergebnis: Aktualisierung der Benutzerdaten im System.
 Benutzer können ihr Passwort zurücksetzen, falls sie es vergessen haben.
 Ergebnis: E-Mail mit Link zum Zurücksetzen des Passworts wird versendet.
 
-![user profile](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/profile.png)
+[(Mockup - User profile)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/profile.png)
 
 #### 2.2 To-Do-Listen-Verwaltung [(UML)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/ToDoListManagement.pdf)
 
@@ -44,6 +44,9 @@ Benutzer können Aufgaben aus einer To-Do-Liste löschen.
 ##### 2.2.5 To-Do-Item als erledigt markieren
 Benutzer können Aufgaben als erledigt markieren und erhalten dafür Punkte.
 
+[(Mockup - Main page)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/main_page.png)
+[(Mockup - List view)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/list_view.png)
+
 #### 2.3 Freunde-Verwaltung [(UML)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/FriendListManager.pdf)
 
 ##### 2.3.1 Freunde finden
@@ -53,6 +56,7 @@ Benutzer können Freundesanfragen versenden
 ##### 2.3.3 Freunde anzeigen
 Benutzer können sich ihre Freundesliste anzeigen lassen
 
+[(Mockup - Friendlist)] (https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/friendlist.png)
 
 ### 3. Nichtfunktionale Anforderungen
 Dieser Abschnitt beschreibt die nicht-funktionalen Anforderungen für die To-Do-Competition-App. Es soll als Grundlage für die Entwicklung, das Testen und die Wartung des Systems dienen.
