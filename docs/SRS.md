@@ -56,7 +56,7 @@ Benutzer können Freundesanfragen versenden
 ##### 2.3.3 Freunde anzeigen
 Benutzer können sich ihre Freundesliste anzeigen lassen
 
-[(Mockup - Friendlist)] (https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/friendlist.png)
+[(Mockup - Friendlist)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/friendlist.png)
 
 ### 3. Nichtfunktionale Anforderungen
 Dieser Abschnitt beschreibt die nicht-funktionalen Anforderungen für die To-Do-Competition-App. Es soll als Grundlage für die Entwicklung, das Testen und die Wartung des Systems dienen.
