@@ -29,6 +29,8 @@ Ergebnis: Aktualisierung der Benutzerdaten im System.
 Benutzer können ihr Passwort zurücksetzen, falls sie es vergessen haben.
 Ergebnis: E-Mail mit Link zum Zurücksetzen des Passworts wird versendet.
 
+[Aktivitäts-Diagramm  - Login](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/LoginActivity.pdf)
+
 [(Mockup - User profile)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/profile.png)
 
 #### 2.2 To-Do-Listen-Verwaltung [(UML)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/ToDoListManagement.pdf)
@@ -44,6 +46,10 @@ Benutzer können Aufgaben aus einer To-Do-Liste löschen.
 ##### 2.2.5 To-Do-Item als erledigt markieren
 Benutzer können Aufgaben als erledigt markieren und erhalten dafür Punkte.
 
+[Aktivitäts-Diagramm - CreateListActivity](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/CreateListActivity.pdf)
+[Aktivitäts-Diagramm - ListRewarding](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/RewardingActivity.pdf)
+[Sequenz-Diagramm - FinishList](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/FinishListSequence.pdf)
+
 [(Mockup - Main page)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/main_page.png)
 [(Mockup - List view)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/list_view.png)
 
@@ -55,6 +61,9 @@ Benutzer können nach Freunden suchen
 Benutzer können Freundesanfragen versenden
 ##### 2.3.3 Freunde anzeigen
 Benutzer können sich ihre Freundesliste anzeigen lassen
+
+[Aktivitäts-Diagramm  - FriendRequest](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/FriendRequestActivity.pdf)
+[Sequenz-Diagramm - AddFriend](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/AddFriendSequence.pdf)
 
 [(Mockup - Friendlist)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/friendlist.png)
 
