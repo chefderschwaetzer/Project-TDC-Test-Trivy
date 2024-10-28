@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a73" }
+    { Type ObjectAnnotation }
+    { GUID "UID_1EA5ABE7-34EE-4676-B95E-9B9193643286" }
+}
+
+NodeObject 99999
+{
+    { Name "Passwort eingeben" }
+    { Type UmlActionState }
+    { ObjectId 4759 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_253CBF39-4EED-4cb2-8A8A-A3E60AFA742E" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 4764 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 4766 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Passwort eingeben" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 4767 }
+}
+

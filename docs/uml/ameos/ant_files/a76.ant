@@ -1,0 +1,52 @@
+FileObject 1
+{
+    { Name "a76" }
+    { Type ObjectAnnotation }
+    { GUID "UID_C6A7089F-4A44-4829-AC6D-D1AF123A46A2" }
+}
+
+NodeObject 99999
+{
+    { Name "User-Login" }
+    { Type UmlActivity }
+    { ObjectId 4919 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_ACFC4C4D-4A55-470d-93F1-CF83FD2299A5" }
+}
+
+NodeObject 99998
+{
+    { Name "%%UmlDecision%%1729844570_9152" }
+    { Type UmlActionState }
+    { ObjectId 4941 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_3028C1A6-A412-4953-8CCC-54AA023EB132" }
+}
+NoteObject 2 
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 4991 }
+}
+
+NoteObject 3 
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 4789 }
+}
+
+ItemObject 4 
+{
+    { Type ObjectName }
+    { Value "%%UmlDecision%%1729844570_9152" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 4790 }
+}
+

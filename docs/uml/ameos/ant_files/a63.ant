@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a63" }
+    { Type ObjectAnnotation }
+    { GUID "UID_C56D394F-DB3D-4be8-ABC1-40937D63A3F1" }
+}
+
+NodeObject 99999
+{
+    { Name "Leere Liste erstellen" }
+    { Type UmlActionState }
+    { ObjectId 3793 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_9E901ACE-2793-40f5-8ECF-E20023DB1790" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 3803 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 3805 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Leere Liste erstellen" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 3806 }
+}
+

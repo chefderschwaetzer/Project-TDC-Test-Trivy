@@ -1,0 +1,707 @@
+Diagram UmlActivityDiagram
+{
+    { Name "AddFriend" }
+    { Format "1.7" }
+    { Scale 1.00 }
+    { PanX -992 }
+    { PanY -493 }
+    { Alignment 1 }
+    { GUID "UID_AE42C70C-05C1-4782-9299-621CA86FDC6F" }
+    { Summary
+        { Nodes 10 }
+        { Arcs 15 }
+    }
+}
+
+Node 2
+{
+    { Type InitialState }
+    { Loc -167 -177 }
+    { Scale 51.20 51.20 }
+    { Label
+        { Text "Start" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 1403 }
+        { GUID "UID_610F047E-511F-445a-813E-67E561AB9D89" }
+    }
+}
+
+Node 33
+{
+    { Type FinalState }
+    { Loc -166 177 }
+    { Scale 51.20 51.20 }
+    { Label
+        { Text "Ende" }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 1493 }
+        { GUID "UID_B17D92C6-533C-4a8e-9313-3DDE369C89CF" }
+    }
+}
+
+Node 61
+{
+    { Type Vertex }
+    { Loc 213 -98 }
+    { Scale 128.00 128.00 }
+}
+
+Node 65
+{
+    { Type Vertex }
+    { Loc 213 84 }
+    { Scale 128.00 128.00 }
+}
+
+Node 94
+{
+    { Type Activity }
+    { Loc 0 -8 }
+    { Scale 934.74 325.71 }
+    { Label
+        { Text "Freund hinzufügen" }
+    }
+    { DynamicSegments
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -274 -141 }
+            { End -274 141 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -274 141 }
+            { End 273 141 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc 273 -141 }
+            { End 273 141 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -274 -141 }
+            { End 273 -141 }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4298 }
+        { GUID "UID_83C1FBC5-1E20-4bf3-812C-BABE5569AE2A" }
+    }
+}
+
+Node 44
+{
+    { Type State }
+    { Loc -169 -98 }
+    { Scale 254.32 48.00 }
+    { Label
+        { Text "Username suchen" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 94 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4306 }
+        { GUID "UID_E49C9BDD-F8F5-4a32-B5A5-D8B2161D77AC" }
+    }
+}
+
+Node 47
+{
+    { Type Decision }
+    { Loc -167 -11 }
+    { Scale 128.00 64.00 }
+    { IsIncluded True }
+    { Parent 94 }
+    { PropertyList
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%UmlDecision%%1729843719_9784" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4318 }
+        { GUID "UID_018A57CE-6F2D-402f-9E8D-CBA863BDCCC6" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4347 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName Default }
+        { ID 4348 }
+    }
+}
+
+Node 50
+{
+    { Type State }
+    { Loc 26 -12 }
+    { Scale 250.95 50.29 }
+    { Label
+        { Text "Profil ansehen" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 94 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4324 }
+        { GUID "UID_61415FB4-F63B-4940-8DEA-A1FA23C1B16D" }
+    }
+}
+
+Node 53
+{
+    { Type Decision }
+    { Loc 212 -11 }
+    { Scale 128.00 64.00 }
+    { IsIncluded True }
+    { Parent 94 }
+    { PropertyList
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%UmlDecision%%1729843806_9784" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4349 }
+        { GUID "UID_768B3007-32D0-4d61-8774-0412F8838CA2" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4376 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName Default }
+        { ID 4377 }
+    }
+}
+
+Node 56
+{
+    { Type State }
+    { Loc -165 82 }
+    { Scale 250.95 51.43 }
+    { Label
+        { Text "Anfrage senden" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 94 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4300 }
+        { GUID "UID_975FC395-C8EB-4baa-AE5C-3F7DBBC1C165" }
+    }
+}
+
+Arc 45
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 2 }
+        { Loc -386 -333 }
+        { Offset -1 3 }
+    }
+    { To
+        { ID 44 }
+        { Loc -386 -284 }
+        { Offset 1 -6 }
+    }
+}
+
+Arc 48
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 44 }
+        { Loc -385 -242 }
+        { Offset 2 -11 }
+    }
+    { To
+        { ID 47 }
+        { Loc -385 -189 }
+        { Offset 0 10 }
+    }
+}
+
+Arc 51
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 47 }
+        { Loc -359 -176 }
+        { Offset 15 0 }
+    }
+    { To
+        { ID 50 }
+        { Loc -266 -176 }
+        { Offset -58 1 }
+    }
+}
+
+Arc 54
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 50 }
+        { Loc -118 -176 }
+        { Offset 64 1 }
+    }
+    { To
+        { ID 53 }
+        { Loc -30 -176 }
+        { Offset 0 0 }
+    }
+}
+
+Arc 57
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 47 }
+        { Loc -384 -164 }
+        { Offset 1 6 }
+    }
+    { To
+        { ID 56 }
+        { Loc -384 -105 }
+        { Offset -1 -4 }
+    }
+}
+
+Arc 59
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 56 }
+        { Loc -384 -61 }
+        { Offset -1 12 }
+    }
+    { To
+        { ID 33 }
+        { Loc -384 2 }
+        { Offset 0 -2 }
+    }
+}
+
+Arc 62
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 53 }
+        { Loc -5 -188 }
+        { Offset 1 -3 }
+    }
+    { To
+        { ID 61 }
+        { Loc -5 -263 }
+        { Offset 0 0 }
+    }
+}
+
+Arc 63
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 61 }
+        { Loc -5 -263 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 44 }
+        { Loc -312 -263 }
+        { Offset 73 0 }
+    }
+    { Label
+        { Text "[anderes Profil gesucht]" }
+    }
+}
+
+Arc 66
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 53 }
+        { Loc -5 -164 }
+        { Offset 1 0 }
+    }
+    { To
+        { ID 65 }
+        { Loc -5 -81 }
+        { Offset 0 0 }
+    }
+}
+
+Arc 67
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 65 }
+        { Loc -5 -81 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 56 }
+        { Loc -309 -81 }
+        { Offset 63 2 }
+    }
+    { Label
+        { Text "[gesuchtes Profil]" }
+    }
+}
+
+Arc 175
+{
+    { Type Contains }
+    { From
+        { ID 94 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 47 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 177
+{
+    { Type Contains }
+    { From
+        { ID 94 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 50 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 179
+{
+    { Type Contains }
+    { From
+        { ID 94 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 53 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 181
+{
+    { Type Contains }
+    { From
+        { ID 94 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 56 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 183
+{
+    { Type Contains }
+    { From
+        { ID 94 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 44 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Link 46
+{
+    { FirstArc 45 }
+    { LastArc 45 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4370 }
+        { GUID "UID_35B81B2F-E439-4ebb-AACE-A9169F876DD4" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4372 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4374 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4373 }
+    }
+}
+
+Link 49
+{
+    { FirstArc 48 }
+    { LastArc 48 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4335 }
+        { GUID "UID_A990DA43-C9E3-45ff-83CF-73949F6E7EEF" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4337 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4339 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4338 }
+    }
+}
+
+Link 52
+{
+    { FirstArc 51 }
+    { LastArc 51 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4330 }
+        { GUID "UID_8849C6B7-32FA-4d79-8ED6-F30B10059882" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4332 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4334 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4333 }
+    }
+}
+
+Link 55
+{
+    { FirstArc 54 }
+    { LastArc 54 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4365 }
+        { GUID "UID_603F70A9-E4C6-4e81-A2A7-511C88F10801" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4367 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4369 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4368 }
+    }
+}
+
+Link 58
+{
+    { FirstArc 57 }
+    { LastArc 57 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4319 }
+        { GUID "UID_07B4DD92-9E74-4353-AC86-6FFD383E6F8B" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4321 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4323 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4322 }
+    }
+}
+
+Link 60
+{
+    { FirstArc 59 }
+    { LastArc 59 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4360 }
+        { GUID "UID_E999C99F-D5EB-4f8a-ACDE-992C83AB8CD9" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4362 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4364 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4363 }
+    }
+}
+
+Link 64
+{
+    { FirstArc 62 }
+    { LastArc 63 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4355 }
+        { GUID "UID_3119CE33-372C-4398-926C-30A433832C5E" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4357 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4359 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4358 }
+    }
+}
+
+Link 68
+{
+    { FirstArc 66 }
+    { LastArc 67 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4350 }
+        { GUID "UID_921D907B-0FD6-4391-9C46-58F3A99C8D74" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4352 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4354 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4353 }
+    }
+}
+
+Link 176
+{
+    { FirstArc 175 }
+    { LastArc 175 }
+}
+
+Link 178
+{
+    { FirstArc 177 }
+    { LastArc 177 }
+}
+
+Link 180
+{
+    { FirstArc 179 }
+    { LastArc 179 }
+}
+
+Link 182
+{
+    { FirstArc 181 }
+    { LastArc 181 }
+}
+
+Link 184
+{
+    { FirstArc 183 }
+    { LastArc 183 }
+}

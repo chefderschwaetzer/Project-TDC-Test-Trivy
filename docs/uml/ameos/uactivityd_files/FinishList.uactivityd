@@ -1,0 +1,995 @@
+Diagram UmlActivityDiagram
+{
+    { Name "FinishList" }
+    { Format "1.7" }
+    { Scale 1.00 }
+    { PanX -1181 }
+    { PanY -355 }
+    { Alignment 1 }
+    { GUID "UID_7CB655E8-269B-41fb-ADA6-1064E9BC44CD" }
+    { Summary
+        { Nodes 12 }
+        { Arcs 21 }
+    }
+}
+
+Node 2
+{
+    { Type InitialState }
+    { Loc -133 -301 }
+    { Scale 51.20 51.20 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 3642 }
+        { GUID "UID_C288311B-E5CC-4914-8EB3-AC3CFBA5E32A" }
+    }
+}
+
+Node 89
+{
+    { Type FinalState }
+    { Loc -128 301 }
+    { Scale 51.20 51.20 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 3894 }
+        { GUID "UID_36CA2815-90A2-475a-BF7F-C10D03E7A36A" }
+    }
+}
+
+Node 92
+{
+    { Type Activity }
+    { Loc 0 -5 }
+    { Scale 916.21 604.57 }
+    { Label
+        { Text "Listen-Rewarding" }
+    }
+    { DynamicSegments
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -268 -262 }
+            { End -268 262 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -268 262 }
+            { End 268 262 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc 268 -262 }
+            { End 268 262 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -268 -262 }
+            { End 268 -262 }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4497 }
+        { GUID "UID_2CED9814-9015-479c-9880-DD83276559E6" }
+    }
+}
+
+Node 58
+{
+    { Type State }
+    { Loc -133 -202 }
+    { Scale 254.32 49.14 }
+    { Label
+        { Text "Liste abschließen" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 92 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4499 }
+        { GUID "UID_B2A8AD0F-F4C2-442d-99CD-473CCFEE7045" }
+    }
+}
+
+Node 61
+{
+    { Type State }
+    { Loc -132 -107 }
+    { Scale 252.63 50.29 }
+    { Label
+        { Text "Rewards einsammeln" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 92 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4500 }
+        { GUID "UID_3605B703-C541-4466-A390-16A1D48B137E" }
+    }
+}
+
+Node 64
+{
+    { Type Decision }
+    { Loc -131 -18 }
+    { Scale 128.00 64.00 }
+    { IsIncluded True }
+    { Parent 92 }
+    { PropertyList
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%UmlDecision%%1729844098_23860" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4541 }
+        { GUID "UID_7CC47C33-F1BA-4632-B395-892AD073C64C" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4569 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName Default }
+        { ID 4570 }
+    }
+}
+
+Node 67
+{
+    { Type State }
+    { Loc 128 -18 }
+    { Scale 301.47 53.71 }
+    { Label
+        { Text "Character-Statistik leveln" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 92 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4529 }
+        { GUID "UID_3BEC08E7-739E-4763-B355-80DB1526F3D7" }
+    }
+}
+
+Node 70
+{
+    { Type Decision }
+    { Loc -130 55 }
+    { Scale 128.00 64.00 }
+    { IsIncluded True }
+    { Parent 92 }
+    { PropertyList
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%UmlDecision%%1729844157_23860" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4530 }
+        { GUID "UID_5F37BA2E-6B1F-4e51-A3A6-45778491A2D0" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4575 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName Default }
+        { ID 4576 }
+    }
+}
+
+Node 71
+{
+    { Type State }
+    { Loc 129 55 }
+    { Scale 298.11 50.29 }
+    { Label
+        { Text "Perk kaufen" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 92 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4523 }
+        { GUID "UID_67105C30-AFAD-4caf-B3C5-9A1555A6EF60" }
+    }
+}
+
+Node 74
+{
+    { Type State }
+    { Loc 129 127 }
+    { Scale 291.37 51.43 }
+    { Label
+        { Text "Outfit kaufen" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 92 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4547 }
+        { GUID "UID_EFE754EA-3105-4f57-9464-BB39D076F044" }
+    }
+}
+
+Node 75
+{
+    { Type Decision }
+    { Loc -129 127 }
+    { Scale 128.00 64.00 }
+    { IsIncluded True }
+    { Parent 92 }
+    { PropertyList
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%UmlDecision%%1729844258_23860" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4517 }
+        { GUID "UID_DB13F9C6-68C2-4e78-9DCA-9F124261AFB9" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4572 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName Default }
+        { ID 4573 }
+    }
+}
+
+Node 86
+{
+    { Type State }
+    { Loc -127 205 }
+    { Scale 284.63 50.29 }
+    { Label
+        { Text "Rewarding abschließen" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 92 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4511 }
+        { GUID "UID_B3C22ECA-C13E-47a4-B310-56BC11B76942" }
+    }
+}
+
+Arc 65
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 61 }
+        { Loc -294 -396 }
+        { Offset 1 15 }
+    }
+    { To
+        { ID 64 }
+        { Loc -294 -342 }
+        { Offset 0 8 }
+    }
+}
+
+Arc 68
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 64 }
+        { Loc -268 -329 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 67 }
+        { Loc -123 -329 }
+        { Offset -71 0 }
+    }
+}
+
+Arc 72
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 70 }
+        { Loc -267 -256 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 71 }
+        { Loc -121 -256 }
+        { Offset -80 0 }
+    }
+}
+
+Arc 76
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 75 }
+        { Loc -266 -184 }
+        { Offset 7 0 }
+    }
+    { To
+        { ID 74 }
+        { Loc -119 -184 }
+        { Offset -70 0 }
+    }
+}
+
+Arc 78
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 64 }
+        { Loc -293 -317 }
+        { Offset 1 6 }
+    }
+    { To
+        { ID 70 }
+        { Loc -293 -269 }
+        { Offset 0 6 }
+    }
+}
+
+Arc 80
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 70 }
+        { Loc -292 -244 }
+        { Offset 1 4 }
+    }
+    { To
+        { ID 75 }
+        { Loc -292 -197 }
+        { Offset 0 6 }
+    }
+}
+
+Arc 82
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 67 }
+        { Loc -121 -317 }
+        { Offset -82 11 }
+    }
+    { To
+        { ID 70 }
+        { Loc -281 -263 }
+        { Offset 8 -6 }
+    }
+}
+
+Arc 84
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 71 }
+        { Loc -118 -243 }
+        { Offset -77 12 }
+    }
+    { To
+        { ID 75 }
+        { Loc -278 -189 }
+        { Offset 8 -4 }
+    }
+}
+
+Arc 87
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 75 }
+        { Loc -291 -172 }
+        { Offset 1 5 }
+    }
+    { To
+        { ID 86 }
+        { Loc -291 -128 }
+        { Offset -1 -9 }
+    }
+}
+
+Arc 90
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 86 }
+        { Loc -291 -84 }
+        { Offset -1 -10 }
+    }
+    { To
+        { ID 89 }
+        { Loc -291 -20 }
+        { Offset 0 -2 }
+    }
+}
+
+Arc 59
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 2 }
+        { Loc -296 -602 }
+        { Offset 0 5 }
+    }
+    { To
+        { ID 58 }
+        { Loc -296 -534 }
+        { Offset 0 -4 }
+    }
+}
+
+Arc 62
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 58 }
+        { Loc -295 -492 }
+        { Offset 1 -5 }
+    }
+    { To
+        { ID 61 }
+        { Loc -295 -440 }
+        { Offset 0 -6 }
+    }
+}
+
+Arc 129
+{
+    { Type Contains }
+    { From
+        { ID 92 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 67 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 131
+{
+    { Type Contains }
+    { From
+        { ID 92 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 70 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 133
+{
+    { Type Contains }
+    { From
+        { ID 92 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 71 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 135
+{
+    { Type Contains }
+    { From
+        { ID 92 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 74 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 137
+{
+    { Type Contains }
+    { From
+        { ID 92 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 75 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 139
+{
+    { Type Contains }
+    { From
+        { ID 92 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 86 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 141
+{
+    { Type Contains }
+    { From
+        { ID 92 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 58 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 143
+{
+    { Type Contains }
+    { From
+        { ID 92 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 61 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 145
+{
+    { Type Contains }
+    { From
+        { ID 92 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 64 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Link 66
+{
+    { FirstArc 65 }
+    { LastArc 65 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4563 }
+        { GUID "UID_22FAA89B-2EB9-4178-83D9-205E26A077B9" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4565 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4567 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4566 }
+    }
+}
+
+Link 69
+{
+    { FirstArc 68 }
+    { LastArc 68 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4558 }
+        { GUID "UID_5F8F5006-60D1-449b-9F20-752B3BDEF8FE" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4560 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4562 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4561 }
+    }
+}
+
+Link 73
+{
+    { FirstArc 72 }
+    { LastArc 72 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4553 }
+        { GUID "UID_CCBDC9FC-2055-431e-8E67-DC41A6CEDE8E" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4555 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4557 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4556 }
+    }
+}
+
+Link 77
+{
+    { FirstArc 76 }
+    { LastArc 76 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4548 }
+        { GUID "UID_DA6F988C-55EE-4e79-BBF4-EA904C2A2DC0" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4550 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4552 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4551 }
+    }
+}
+
+Link 79
+{
+    { FirstArc 78 }
+    { LastArc 78 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4542 }
+        { GUID "UID_5BDFA685-F249-4df6-BF8C-5F0CD291AE20" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4544 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4546 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4545 }
+    }
+}
+
+Link 81
+{
+    { FirstArc 80 }
+    { LastArc 80 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4536 }
+        { GUID "UID_7014B104-9B37-40cc-86CC-914870FF5187" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4538 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4540 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4539 }
+    }
+}
+
+Link 83
+{
+    { FirstArc 82 }
+    { LastArc 82 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4531 }
+        { GUID "UID_0FE2D008-886D-43b0-86F6-3DBD768824F6" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4533 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4535 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4534 }
+    }
+}
+
+Link 85
+{
+    { FirstArc 84 }
+    { LastArc 84 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4524 }
+        { GUID "UID_67950EAD-BCDD-4a64-9319-C514977630F5" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4526 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4528 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4527 }
+    }
+}
+
+Link 88
+{
+    { FirstArc 87 }
+    { LastArc 87 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4518 }
+        { GUID "UID_F58B5676-6B87-4d1d-A640-6403646C81D8" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4520 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4522 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4521 }
+    }
+}
+
+Link 91
+{
+    { FirstArc 90 }
+    { LastArc 90 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4512 }
+        { GUID "UID_77E22D9D-BF20-4150-BC4E-D5FC1955FCEF" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4514 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4516 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4515 }
+    }
+}
+
+Link 60
+{
+    { FirstArc 59 }
+    { LastArc 59 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4506 }
+        { GUID "UID_B9D4FEDD-3DDD-461a-8D7C-6D2B8B854FA7" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4508 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4510 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4509 }
+    }
+}
+
+Link 63
+{
+    { FirstArc 62 }
+    { LastArc 62 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4501 }
+        { GUID "UID_AB914886-177A-4638-9E5D-5661DF3D2947" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4503 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4505 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4504 }
+    }
+}
+
+Link 130
+{
+    { FirstArc 129 }
+    { LastArc 129 }
+}
+
+Link 132
+{
+    { FirstArc 131 }
+    { LastArc 131 }
+}
+
+Link 134
+{
+    { FirstArc 133 }
+    { LastArc 133 }
+}
+
+Link 136
+{
+    { FirstArc 135 }
+    { LastArc 135 }
+}
+
+Link 138
+{
+    { FirstArc 137 }
+    { LastArc 137 }
+}
+
+Link 140
+{
+    { FirstArc 139 }
+    { LastArc 139 }
+}
+
+Link 142
+{
+    { FirstArc 141 }
+    { LastArc 141 }
+}
+
+Link 144
+{
+    { FirstArc 143 }
+    { LastArc 143 }
+}
+
+Link 146
+{
+    { FirstArc 145 }
+    { LastArc 145 }
+}

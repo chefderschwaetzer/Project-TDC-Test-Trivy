@@ -1,0 +1,1037 @@
+Diagram UmlActivityDiagram
+{
+    { Name "Login" }
+    { Format "1.7" }
+    { Scale 1.00 }
+    { PanX -772 }
+    { PanY -361 }
+    { Alignment 1 }
+    { GUID "UID_026412E6-4DAE-428d-91CB-5635D8525AA9" }
+    { Summary
+        { Nodes 13 }
+        { Arcs 21 }
+    }
+}
+
+Node 151
+{
+    { Type InitialState }
+    { Loc -120 -298 }
+    { Scale 51.20 51.20 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 3642 }
+        { GUID "UID_C288311B-E5CC-4914-8EB3-AC3CFBA5E32A" }
+    }
+}
+
+Node 176
+{
+    { Type FinalState }
+    { Loc -120 299 }
+    { Scale 51.20 51.20 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 3894 }
+        { GUID "UID_36CA2815-90A2-475a-BF7F-C10D03E7A36A" }
+    }
+}
+
+Node 183
+{
+    { Type Vertex }
+    { Loc 57 -139 }
+    { Scale 128.00 128.00 }
+}
+
+Node 207
+{
+    { Type Note }
+    { Loc -314 21 }
+    { Scale 274.73 408.38 }
+    { Label
+        { Text "Richtiger Username & Passwort?" }
+        { Align Center }
+    }
+    { PropertyList
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%note%%1729845176_9152" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName NoteNodeMapping }
+        { ID 4884 }
+        { GUID "UID_2230B920-CBEC-42ee-8DC5-3B28ED1471D4" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4886 }
+    }
+}
+
+Node 210
+{
+    { Type Activity }
+    { Loc 10 -4 }
+    { Scale 1365.89 588.57 }
+    { Label
+        { Text "User-Login" }
+    }
+    { DynamicSegments
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -400 -255 }
+            { End -400 255 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -400 255 }
+            { End 400 255 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc 400 -255 }
+            { End 400 255 }
+        }
+        { Segment
+            { Type Line }
+            { Style Solid }
+            { Fill None }
+            { Loc -400 -255 }
+            { End 400 -255 }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4919 }
+        { GUID "UID_ACFC4C4D-4A55-470d-93F1-CF83FD2299A5" }
+    }
+}
+
+Node 149
+{
+    { Type State }
+    { Loc -122 -139 }
+    { Scale 254.32 43.43 }
+    { Label
+        { Text "Username eingeben" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 210 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4922 }
+        { GUID "UID_088CD38B-5544-4952-B34E-AB034599A4BE" }
+    }
+}
+
+Node 150
+{
+    { Type State }
+    { Loc -121 -58 }
+    { Scale 254.32 46.86 }
+    { Label
+        { Text "Passwort eingeben" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 210 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4940 }
+        { GUID "UID_7BAB8E99-5E82-4421-BE10-B03AC332F72F" }
+    }
+}
+
+Node 156
+{
+    { Type Decision }
+    { Loc -121 22 }
+    { Scale 128.00 64.00 }
+    { IsIncluded True }
+    { Parent 210 }
+    { PropertyList
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%UmlDecision%%1729844570_9152" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4941 }
+        { GUID "UID_3028C1A6-A412-4953-8CCC-54AA023EB132" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4991 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName Default }
+        { ID 4992 }
+    }
+}
+
+Node 170
+{
+    { Type State }
+    { Loc -119 114 }
+    { Scale 250.95 46.86 }
+    { Label
+        { Text "Benutzer einloggen" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 210 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4934 }
+        { GUID "UID_391B32BA-9387-42d0-86F5-E97C48773820" }
+    }
+}
+
+Node 173
+{
+    { Type State }
+    { Loc -119 200 }
+    { Scale 252.63 48.00 }
+    { Label
+        { Text "Startseite laden" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 210 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4928 }
+        { GUID "UID_BD383E47-12FD-4de3-B884-C6F0C698D023" }
+    }
+}
+
+Node 180
+{
+    { Type Decision }
+    { Loc 57 22 }
+    { Scale 128.00 64.00 }
+    { IsIncluded True }
+    { Parent 210 }
+    { PropertyList
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%UmlDecision%%1729844810_9152" }
+        }
+    }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4974 }
+        { GUID "UID_ADCD6EF3-A9D3-45c7-8DDA-0753AD343915" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4994 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName Default }
+        { ID 4995 }
+    }
+}
+
+Node 190
+{
+    { Type State }
+    { Loc 262 22 }
+    { Scale 362.11 49.14 }
+    { Label
+        { Text "E-Mail eingeben" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 210 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4962 }
+        { GUID "UID_1B4D87CA-0C52-4ef8-817F-B581826E6E0C" }
+    }
+}
+
+Node 193
+{
+    { Type State }
+    { Loc 263 -136 }
+    { Scale 352.00 48.00 }
+    { Label
+        { Text "Passwort zurücksetzen" }
+        { Align Center }
+    }
+    { IsIncluded True }
+    { Parent 210 }
+    { Object
+        { PDMType Node }
+        { MappingName Default }
+        { ID 4921 }
+        { GUID "UID_DD864673-512E-47e0-8A00-A93D8E66C891" }
+    }
+}
+
+Arc 181
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 156 }
+        { Loc -95 22 }
+        { Offset 11 0 }
+    }
+    { To
+        { ID 180 }
+        { Loc 33 22 }
+        { Offset -4 0 }
+    }
+    { Label
+        { Text "[Nein]" }
+    }
+}
+
+Arc 184
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 180 }
+        { Loc 57 9 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 183 }
+        { Loc 57 -139 }
+        { Offset 0 0 }
+    }
+    { Label
+        { Text "[neuer Versuch]" }
+    }
+}
+
+Arc 185
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 183 }
+        { Loc 57 -139 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 149 }
+        { Loc -47 -139 }
+        { Offset 71 0 }
+    }
+}
+
+Arc 194
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 190 }
+        { Loc 261 1 }
+        { Offset -1 -11 }
+    }
+    { To
+        { ID 193 }
+        { Loc 261 -115 }
+        { Offset -2 14 }
+    }
+}
+
+Arc 152
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 151 }
+        { Loc -121 -289 }
+        { Offset -1 0 }
+    }
+    { To
+        { ID 149 }
+        { Loc -121 -158 }
+        { Offset 1 -5 }
+    }
+}
+
+Arc 171
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 156 }
+        { Loc -120 34 }
+        { Offset 1 7 }
+    }
+    { To
+        { ID 170 }
+        { Loc -120 94 }
+        { Offset -1 -9 }
+    }
+    { Label
+        { Text "[Ja]" }
+    }
+}
+
+Arc 157
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 149 }
+        { Loc -120 -120 }
+        { Offset 2 -13 }
+    }
+    { To
+        { ID 150 }
+        { Loc -120 -78 }
+        { Offset 1 -12 }
+    }
+}
+
+Arc 159
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 150 }
+        { Loc -120 -38 }
+        { Offset 1 11 }
+    }
+    { To
+        { ID 156 }
+        { Loc -120 10 }
+        { Offset 1 6 }
+    }
+}
+
+Arc 174
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 170 }
+        { Loc -120 134 }
+        { Offset -1 -11 }
+    }
+    { To
+        { ID 173 }
+        { Loc -120 179 }
+        { Offset -1 -5 }
+    }
+}
+
+Arc 177
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 173 }
+        { Loc -120 221 }
+        { Offset -1 13 }
+    }
+    { To
+        { ID 176 }
+        { Loc -120 289 }
+        { Offset 0 1 }
+    }
+}
+
+Arc 201
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 193 }
+        { Loc 258 -157 }
+        { Offset -1 -16 }
+    }
+    { To
+        { ID 149 }
+        { Loc -78 -158 }
+        { Offset 39 -15 }
+    }
+    { Spline
+        { Points 8 }
+        { Point 258 -157 }
+        { Point 258 -157 }
+        { Point 258 -157 }
+        { Point 193 -225 }
+        { Point 7 -225 }
+        { Point -78 -158 }
+        { Point -78 -158 }
+        { Point -78 -158 }
+    }
+}
+
+Arc 208
+{
+    { Type NoteLink }
+    { From
+        { ID 207 }
+        { Loc -271 22 }
+        { Offset 34 1 }
+    }
+    { To
+        { ID 156 }
+        { Loc -145 22 }
+        { Offset -9 0 }
+    }
+    { PropertyList
+        { Property
+            { Name "AnonymousName" }
+            { Value "%%notelinkconnector%%1729845213_9152" }
+        }
+    }
+}
+
+Arc 247
+{
+    { Type Contains }
+    { From
+        { ID 210 }
+        { Loc 10 -4 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 170 }
+        { Loc -119 114 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 251
+{
+    { Type Contains }
+    { From
+        { ID 210 }
+        { Loc 10 -4 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 180 }
+        { Loc 57 22 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 255
+{
+    { Type Contains }
+    { From
+        { ID 210 }
+        { Loc 10 -4 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 193 }
+        { Loc 263 -136 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 257
+{
+    { Type Contains }
+    { From
+        { ID 210 }
+        { Loc 10 -4 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 149 }
+        { Loc -122 -139 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 259
+{
+    { Type Contains }
+    { From
+        { ID 210 }
+        { Loc 10 -4 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 150 }
+        { Loc -121 -58 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 261
+{
+    { Type Contains }
+    { From
+        { ID 210 }
+        { Loc 10 -4 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 156 }
+        { Loc -121 22 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 263
+{
+    { Type Contains }
+    { From
+        { ID 210 }
+        { Loc 10 -4 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 173 }
+        { Loc -119 200 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 270
+{
+    { Type Contains }
+    { From
+        { ID 210 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 190 }
+        { Loc 0 0 }
+        { Offset 0 0 }
+    }
+    { IsInclusion True }
+}
+
+Arc 272
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 180 }
+        { Loc 83 22 }
+        { Offset 0 0 }
+    }
+    { To
+        { ID 190 }
+        { Loc 156 22 }
+        { Offset -86 0 }
+    }
+}
+
+Link 182
+{
+    { FirstArc 181 }
+    { LastArc 181 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4985 }
+        { GUID "UID_29000045-2A1F-4d0f-82FA-E092C9EA6574" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4987 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4989 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4988 }
+    }
+}
+
+Link 186
+{
+    { FirstArc 184 }
+    { LastArc 185 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4980 }
+        { GUID "UID_E786C587-520C-4a35-B19C-8145F7B54CBC" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4982 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4984 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4983 }
+    }
+}
+
+Link 195
+{
+    { FirstArc 194 }
+    { LastArc 194 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4963 }
+        { GUID "UID_A1017606-8AA5-4cba-BE4D-783C9E89511F" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4965 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4967 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4966 }
+    }
+}
+
+Link 153
+{
+    { FirstArc 152 }
+    { LastArc 152 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4957 }
+        { GUID "UID_B39490BE-ADD6-4795-8CFE-D9B25ECEC239" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4959 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4961 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4960 }
+    }
+}
+
+Link 172
+{
+    { FirstArc 171 }
+    { LastArc 171 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4952 }
+        { GUID "UID_F3469DC7-217B-4411-A27A-8B2EE65A1F6D" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4954 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4956 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4955 }
+    }
+}
+
+Link 158
+{
+    { FirstArc 157 }
+    { LastArc 157 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4947 }
+        { GUID "UID_2A9AB83A-E9A1-465f-9E82-6F8F4C8B406F" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4949 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4951 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4950 }
+    }
+}
+
+Link 160
+{
+    { FirstArc 159 }
+    { LastArc 159 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4942 }
+        { GUID "UID_19A290AF-07FA-48ec-850B-7DDC1BAF8700" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4944 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4946 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4945 }
+    }
+}
+
+Link 175
+{
+    { FirstArc 174 }
+    { LastArc 174 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4935 }
+        { GUID "UID_D489FCB6-28C1-4d12-93D7-802DDD8BBD4A" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4937 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4939 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4938 }
+    }
+}
+
+Link 178
+{
+    { FirstArc 177 }
+    { LastArc 177 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4929 }
+        { GUID "UID_E50F8061-A6C4-4679-8228-5B501C457AEF" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4931 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4933 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4932 }
+    }
+}
+
+Link 206
+{
+    { FirstArc 201 }
+    { LastArc 201 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 4923 }
+        { GUID "UID_C6D6A8B6-1A8B-4c65-9261-3DB44754487A" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4925 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 4927 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 4926 }
+    }
+}
+
+Link 209
+{
+    { FirstArc 208 }
+    { LastArc 208 }
+    { Object
+        { PDMType Node }
+        { MappingName NoteLinkMapping }
+        { ID 4887 }
+        { GUID "UID_16A02658-414C-499a-BB8E-E4AFC338F9E3" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 4890 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName NoteLinkReferenceItemMapping }
+        { ID 5031 }
+    }
+    { Object
+        { PDMType Link }
+        { MappingName NoteFromMapping }
+        { ID 4888 }
+        { GUID "UID_12F5C0BC-D92D-48f9-B1E2-1674DDEE7583" }
+    }
+}
+
+Link 248
+{
+    { FirstArc 247 }
+    { LastArc 247 }
+}
+
+Link 252
+{
+    { FirstArc 251 }
+    { LastArc 251 }
+    { Object
+        { PDMType Link }
+        { MappingName Default }
+        { ID 4920 }
+        { GUID "UID_9163A349-98F6-4902-BC68-92D92E8160B4" }
+    }
+}
+
+Link 256
+{
+    { FirstArc 255 }
+    { LastArc 255 }
+}
+
+Link 258
+{
+    { FirstArc 257 }
+    { LastArc 257 }
+}
+
+Link 260
+{
+    { FirstArc 259 }
+    { LastArc 259 }
+}
+
+Link 262
+{
+    { FirstArc 261 }
+    { LastArc 261 }
+    { Object
+        { PDMType Link }
+        { MappingName Default }
+        { ID 4920 }
+        { GUID "UID_9163A349-98F6-4902-BC68-92D92E8160B4" }
+    }
+}
+
+Link 264
+{
+    { FirstArc 263 }
+    { LastArc 263 }
+}
+
+Link 271
+{
+    { FirstArc 270 }
+    { LastArc 270 }
+    { Object
+        { PDMType Link }
+        { MappingName Default }
+        { ID 4920 }
+        { GUID "UID_9163A349-98F6-4902-BC68-92D92E8160B4" }
+    }
+}
+
+Link 273
+{
+    { FirstArc 272 }
+    { LastArc 272 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 5705 }
+        { GUID "UID_577A1AF7-AC38-4cf4-A8A7-3F2756AFAC98" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 5707 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 5709 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 5708 }
+    }
+}

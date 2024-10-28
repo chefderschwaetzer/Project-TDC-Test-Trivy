@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a74" }
+    { Type ObjectAnnotation }
+    { GUID "UID_BAD5E9A3-EFB2-4da3-8147-A20B9C502E9C" }
+}
+
+NodeObject 99999
+{
+    { Name "%%UmlDecision%%1729844570_9152" }
+    { Type UmlActionState }
+    { ObjectId 4780 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_6C6AF0F7-2B18-437d-95D1-3B4192A8FC15" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 4782 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 4789 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "%%UmlDecision%%1729844570_9152" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 4790 }
+}
+

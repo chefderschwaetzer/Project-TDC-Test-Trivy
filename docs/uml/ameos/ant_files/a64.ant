@@ -1,0 +1,52 @@
+FileObject 1
+{
+    { Name "a64" }
+    { Type ObjectAnnotation }
+    { GUID "UID_371DC98C-7040-4aeb-82D9-4286203AF436" }
+}
+
+NodeObject 99999
+{
+    { Name "Neue To-Do-Liste anlegen" }
+    { Type UmlActivity }
+    { ObjectId 3924 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_5EEE6935-7468-4bb3-A2BC-8D55AE9E0325" }
+}
+
+NodeObject 99998
+{
+    { Name "Leere Liste erstellen" }
+    { Type UmlActionState }
+    { ObjectId 3926 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_F49570C8-F2AA-4ee5-AF13-78209760377A" }
+}
+NoteObject 2 
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3803 }
+}
+
+NoteObject 3 
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 3805 }
+}
+
+ItemObject 4 
+{
+    { Type ObjectName }
+    { Value "Leere Liste erstellen" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 3806 }
+}
+
