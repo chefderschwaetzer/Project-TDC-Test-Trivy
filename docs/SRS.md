@@ -31,7 +31,9 @@ Ergebnis: E-Mail mit Link zum Zurücksetzen des Passworts wird versendet.
 
 [Aktivitäts-Diagramm  - Login](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/LoginActivity.pdf)
 
-[(Mockup - User profile)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/profile.png)
+[Mockup - User profile](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/profile.png)
+
+
 
 #### 2.2 To-Do-Listen-Verwaltung [(UML)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/ToDoListManagement.pdf)
 
@@ -50,8 +52,10 @@ Benutzer können Aufgaben als erledigt markieren und erhalten dafür Punkte.
 [Aktivitäts-Diagramm - ListRewarding](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/RewardingActivity.pdf)
 [Sequenz-Diagramm - FinishList](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/FinishListSequence.pdf)
 
-[(Mockup - Main page)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/main_page.png)
-[(Mockup - List view)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/list_view.png)
+[Mockup - Main page](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/main_page.png)
+[Mockup - List view](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/list_view.png)
+
+
 
 #### 2.3 Freunde-Verwaltung [(UML)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/FriendListManager.pdf)
 
@@ -65,7 +69,9 @@ Benutzer können sich ihre Freundesliste anzeigen lassen
 [Aktivitäts-Diagramm  - FriendRequest](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/FriendRequestActivity.pdf)
 [Sequenz-Diagramm - AddFriend](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/AddFriendSequence.pdf)
 
-[(Mockup - Friendlist)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/friendlist.png)
+[Mockup - Friendlist](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/friendlist.png)
+
+
 
 ### 3. Nichtfunktionale Anforderungen
 Dieser Abschnitt beschreibt die nicht-funktionalen Anforderungen für die To-Do-Competition-App. Es soll als Grundlage für die Entwicklung, das Testen und die Wartung des Systems dienen.
