@@ -18,7 +18,7 @@
 
 ### 2. Funktionale Anforderungen
 Dieser Abschnitt beschreibt die funktionalen Anforderungen für die To-Do-Competition-App. Es soll als Grundlage für die Entwicklung, das Testen und die Wartung des Systems dienen.
-#### 2.1 Benutzerkonto-Verwaltung [(UML)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/UserAccountManager.pdf)
+#### 2.1 Benutzerkonto-Verwaltung [(UML)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/UserAccountManager.pdf)
 
 ##### 2.1.1 Registrierung und Anmeldung
 Benutzer können sich registrieren oder anmelden, um auf die App zuzugreifen.
@@ -31,7 +31,7 @@ Ergebnis: E-Mail mit Link zum Zurücksetzen des Passworts wird versendet.
 
 [(Mockup - User profile)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/profile.png)
 
-#### 2.2 To-Do-Listen-Verwaltung [(UML)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/ToDoListManagement.pdf)
+#### 2.2 To-Do-Listen-Verwaltung [(UML)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/ToDoListManagement.pdf)
 
 ##### 2.2.1 To-Do-Liste erstellen
 Benutzer können neue To-Do-Listen erstellen und diese benennen.
@@ -47,7 +47,7 @@ Benutzer können Aufgaben als erledigt markieren und erhalten dafür Punkte.
 [(Mockup - Main page)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/main_page.png)
 [(Mockup - List view)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/list_view.png)
 
-#### 2.3 Freunde-Verwaltung [(UML)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/FriendListManager.pdf)
+#### 2.3 Freunde-Verwaltung [(UML)](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/FriendListManager.pdf)
 
 ##### 2.3.1 Freunde finden
 Benutzer können nach Freunden suchen
