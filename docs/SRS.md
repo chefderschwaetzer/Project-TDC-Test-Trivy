@@ -70,6 +70,7 @@ Benutzer können Freundesanfragen versenden
 Benutzer können sich ihre Freundesliste anzeigen lassen
 
 [Aktivitäts-Diagramm  - FriendRequest](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/FriendRequestActivity.pdf)
+
 [Sequenz-Diagramm - AddFriend](https://github.com/Ninetilt/Project-TDC/blob/main/docs/uml/PDF/AddFriendSequence.pdf)
 
 [Mockup - Friendlist](https://github.com/Ninetilt/Project-TDC/blob/main/docs/ui/friendlist.png)
