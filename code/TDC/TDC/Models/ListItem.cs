@@ -57,5 +57,13 @@ public class ListItem
     {
         return finishedMembers;
     }
+
+    public int GetEffort() {
+        return effort;
+    }
+
+    public void SetEffort(int effort) { 
+        this.effort = effort;
+    }
     #endregion
 }

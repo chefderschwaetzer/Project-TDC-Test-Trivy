@@ -17,10 +17,6 @@ public class Profile
         level = 0;
     }
 
-    public Profile(int id) { 
-        this.id = id;
-        //TO-DO: init profile via ID -> data base
-    }
     #endregion
 
     #region getters & setters

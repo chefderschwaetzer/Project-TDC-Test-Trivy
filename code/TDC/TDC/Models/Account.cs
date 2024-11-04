@@ -2,6 +2,7 @@
 public class Account: Profile
 {
     private List<Profile> friends = new List<Profile>();
+    private List<Profile> requests = new List<Profile>();
     private List<ToDoList> lists = new List<ToDoList>();
     private string email;
     private string password;
@@ -12,16 +13,11 @@ public class Account: Profile
     : base(id, name, picture, description)
     {
         this.friends = new List<Profile>();
+        this.requests = new List<Profile>();
         this.lists = new List<ToDoList>();
         character = new Character();
         this.email = email;
         this.password = password;
-        this.character = character;
-    }
-
-    public Account(int id):base(id)
-    {
-        //TO-DO: init rest via id -> existing account
     }
     #endregion
 
@@ -86,6 +82,18 @@ public class Account: Profile
     public List<ToDoList> GetLists()
     {
         return lists;
+    }
+
+    public Character GetCharacter() {
+        return character;
+    }
+
+    public List<Profile> GetRequests() { 
+        return requests;
+    }
+
+    public void SendRequest(Profile profile) {
+        
     }
     #endregion
 }
