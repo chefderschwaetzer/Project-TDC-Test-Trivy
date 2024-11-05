@@ -1,0 +1,53 @@
+FileObject 1
+{
+    { Name "a123" }
+    { Type ObjectAnnotation }
+    { GUID "UID_1AE01769-10AB-4f15-B5A9-09C474F7FE4A" }
+}
+
+NodeObject 99999
+{
+    { Name "ListItem" }
+    { Type UmlClass }
+    { ObjectId 9831 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_BBE109DD-4AF2-4138-A81A-ED38DA05A148" }
+}
+
+NodeObject 99998
+{
+    { Name "description" }
+    { Type UmlAttribute }
+    { ObjectId 9832 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_D014235A-F4A8-4e55-AC62-DC5F1E55F5EE" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 10954 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 10956 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "description" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 10957 }
+}
+

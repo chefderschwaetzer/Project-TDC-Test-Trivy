@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a116" }
+    { Type ObjectAnnotation }
+    { GUID "UID_0006B886-D9B8-49c2-8DB6-4442807E22CE" }
+}
+
+NodeObject 99999
+{
+    { Name "Account,TDC" }
+    { Type UmlAssociation }
+    { ObjectId 10702 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_CCA58915-D011-46ad-915D-EDD2B5C0226D" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 10728 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 10730 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Account,TDC" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 10731 }
+}
+

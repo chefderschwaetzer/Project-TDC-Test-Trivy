@@ -1,0 +1,99 @@
+FileObject 1
+{
+    { Name "a99" }
+    { Type ObjectAnnotation }
+    { GUID "UID_C8C6B5D6-EBD6-4273-9E8E-04F90A603AFD" }
+}
+
+NodeObject 99999
+{
+    { Name "ListItem,ToDoList" }
+    { Type UmlAssociation }
+    { ObjectId 10235 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_4B64D5B0-A9C6-45be-80BA-27D960E1583E" }
+}
+
+NodeObject 99998
+{
+    { Name "ListItem" }
+    { Type UmlClass }
+    { ObjectId 9831 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_BBE109DD-4AF2-4138-A81A-ED38DA05A148" }
+}
+
+LinkObject 99997
+{
+    { Name "" }
+    { Type UmlRole }
+    { ObjectId 10236 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ToNodeId 99999 }
+    { FromNodeId 99998 }
+    { GUID "UID_567F5697-FDD8-402a-9C20-8925360DE5C2" }
+}
+
+NoteObject 2
+{
+    { Type UmlRoleDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 10244 }
+}
+
+ItemObject 3
+{
+    { Type UmlMultiplicity }
+    { Value "1..*" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 10319 }
+}
+
+ItemObject 4
+{
+    { Type UmlRoleNavigability }
+    { Value "True" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 10269 }
+}
+
+ItemObject 5
+{
+    { Type UmlAggregationType }
+    { Value "None" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 10270 }
+}
+
+NoteObject 6
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 10247 }
+}
+
+NoteObject 7
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 10249 }
+}
+
+ItemObject 8
+{
+    { Type ObjectName }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 7 }
+    { ObjectId 10250 }
+}
+

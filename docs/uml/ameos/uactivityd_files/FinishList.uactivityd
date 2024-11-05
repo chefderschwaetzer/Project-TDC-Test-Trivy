@@ -9,7 +9,7 @@ Diagram UmlActivityDiagram
     { GUID "UID_7CB655E8-269B-41fb-ADA6-1064E9BC44CD" }
     { Summary
         { Nodes 12 }
-        { Arcs 21 }
+        { Arcs 22 }
     }
 }
 
@@ -297,12 +297,12 @@ Arc 65
     { Type StateTransitionLink }
     { From
         { ID 61 }
-        { Loc -294 -396 }
+        { Loc -131 -85 }
         { Offset 1 15 }
     }
     { To
         { ID 64 }
-        { Loc -294 -342 }
+        { Loc -131 -31 }
         { Offset 0 8 }
     }
 }
@@ -312,12 +312,12 @@ Arc 68
     { Type StateTransitionLink }
     { From
         { ID 64 }
-        { Loc -268 -329 }
+        { Loc -105 -18 }
         { Offset 0 0 }
     }
     { To
         { ID 67 }
-        { Loc -123 -329 }
+        { Loc 40 -18 }
         { Offset -71 0 }
     }
 }
@@ -327,12 +327,12 @@ Arc 72
     { Type StateTransitionLink }
     { From
         { ID 70 }
-        { Loc -267 -256 }
+        { Loc -104 55 }
         { Offset 0 0 }
     }
     { To
         { ID 71 }
-        { Loc -121 -256 }
+        { Loc 42 55 }
         { Offset -80 0 }
     }
 }
@@ -342,12 +342,12 @@ Arc 76
     { Type StateTransitionLink }
     { From
         { ID 75 }
-        { Loc -266 -184 }
+        { Loc -103 127 }
         { Offset 7 0 }
     }
     { To
         { ID 74 }
-        { Loc -119 -184 }
+        { Loc 44 127 }
         { Offset -70 0 }
     }
 }
@@ -357,12 +357,12 @@ Arc 78
     { Type StateTransitionLink }
     { From
         { ID 64 }
-        { Loc -293 -317 }
+        { Loc -130 -6 }
         { Offset 1 6 }
     }
     { To
         { ID 70 }
-        { Loc -293 -269 }
+        { Loc -130 42 }
         { Offset 0 6 }
     }
 }
@@ -372,12 +372,12 @@ Arc 80
     { Type StateTransitionLink }
     { From
         { ID 70 }
-        { Loc -292 -244 }
+        { Loc -129 67 }
         { Offset 1 4 }
     }
     { To
         { ID 75 }
-        { Loc -292 -197 }
+        { Loc -129 114 }
         { Offset 0 6 }
     }
 }
@@ -387,12 +387,12 @@ Arc 82
     { Type StateTransitionLink }
     { From
         { ID 67 }
-        { Loc -121 -317 }
+        { Loc 42 -6 }
         { Offset -82 11 }
     }
     { To
         { ID 70 }
-        { Loc -281 -263 }
+        { Loc -118 48 }
         { Offset 8 -6 }
     }
 }
@@ -402,12 +402,12 @@ Arc 84
     { Type StateTransitionLink }
     { From
         { ID 71 }
-        { Loc -118 -243 }
+        { Loc 45 68 }
         { Offset -77 12 }
     }
     { To
         { ID 75 }
-        { Loc -278 -189 }
+        { Loc -115 122 }
         { Offset 8 -4 }
     }
 }
@@ -417,12 +417,12 @@ Arc 87
     { Type StateTransitionLink }
     { From
         { ID 75 }
-        { Loc -291 -172 }
+        { Loc -128 139 }
         { Offset 1 5 }
     }
     { To
         { ID 86 }
-        { Loc -291 -128 }
+        { Loc -128 183 }
         { Offset -1 -9 }
     }
 }
@@ -432,12 +432,12 @@ Arc 90
     { Type StateTransitionLink }
     { From
         { ID 86 }
-        { Loc -291 -84 }
+        { Loc -128 227 }
         { Offset -1 -10 }
     }
     { To
         { ID 89 }
-        { Loc -291 -20 }
+        { Loc -128 291 }
         { Offset 0 -2 }
     }
 }
@@ -447,12 +447,12 @@ Arc 59
     { Type StateTransitionLink }
     { From
         { ID 2 }
-        { Loc -296 -602 }
+        { Loc -133 -291 }
         { Offset 0 5 }
     }
     { To
         { ID 58 }
-        { Loc -296 -534 }
+        { Loc -133 -223 }
         { Offset 0 -4 }
     }
 }
@@ -462,12 +462,12 @@ Arc 62
     { Type StateTransitionLink }
     { From
         { ID 58 }
-        { Loc -295 -492 }
+        { Loc -132 -181 }
         { Offset 1 -5 }
     }
     { To
         { ID 61 }
-        { Loc -295 -440 }
+        { Loc -132 -129 }
         { Offset 0 -6 }
     }
 }
@@ -477,12 +477,12 @@ Arc 129
     { Type Contains }
     { From
         { ID 92 }
-        { Loc 0 0 }
+        { Loc 0 -5 }
         { Offset 0 0 }
     }
     { To
         { ID 67 }
-        { Loc 0 0 }
+        { Loc 128 -18 }
         { Offset 0 0 }
     }
     { IsInclusion True }
@@ -493,12 +493,12 @@ Arc 131
     { Type Contains }
     { From
         { ID 92 }
-        { Loc 0 0 }
+        { Loc 0 -5 }
         { Offset 0 0 }
     }
     { To
         { ID 70 }
-        { Loc 0 0 }
+        { Loc -130 55 }
         { Offset 0 0 }
     }
     { IsInclusion True }
@@ -509,12 +509,12 @@ Arc 133
     { Type Contains }
     { From
         { ID 92 }
-        { Loc 0 0 }
+        { Loc 0 -5 }
         { Offset 0 0 }
     }
     { To
         { ID 71 }
-        { Loc 0 0 }
+        { Loc 129 55 }
         { Offset 0 0 }
     }
     { IsInclusion True }
@@ -525,12 +525,12 @@ Arc 135
     { Type Contains }
     { From
         { ID 92 }
-        { Loc 0 0 }
+        { Loc 0 -5 }
         { Offset 0 0 }
     }
     { To
         { ID 74 }
-        { Loc 0 0 }
+        { Loc 129 127 }
         { Offset 0 0 }
     }
     { IsInclusion True }
@@ -541,12 +541,12 @@ Arc 137
     { Type Contains }
     { From
         { ID 92 }
-        { Loc 0 0 }
+        { Loc 0 -5 }
         { Offset 0 0 }
     }
     { To
         { ID 75 }
-        { Loc 0 0 }
+        { Loc -129 127 }
         { Offset 0 0 }
     }
     { IsInclusion True }
@@ -557,12 +557,12 @@ Arc 139
     { Type Contains }
     { From
         { ID 92 }
-        { Loc 0 0 }
+        { Loc 0 -5 }
         { Offset 0 0 }
     }
     { To
         { ID 86 }
-        { Loc 0 0 }
+        { Loc -127 205 }
         { Offset 0 0 }
     }
     { IsInclusion True }
@@ -573,12 +573,12 @@ Arc 141
     { Type Contains }
     { From
         { ID 92 }
-        { Loc 0 0 }
+        { Loc 0 -5 }
         { Offset 0 0 }
     }
     { To
         { ID 58 }
-        { Loc 0 0 }
+        { Loc -133 -202 }
         { Offset 0 0 }
     }
     { IsInclusion True }
@@ -589,12 +589,12 @@ Arc 143
     { Type Contains }
     { From
         { ID 92 }
-        { Loc 0 0 }
+        { Loc 0 -5 }
         { Offset 0 0 }
     }
     { To
         { ID 61 }
-        { Loc 0 0 }
+        { Loc -132 -107 }
         { Offset 0 0 }
     }
     { IsInclusion True }
@@ -605,15 +605,30 @@ Arc 145
     { Type Contains }
     { From
         { ID 92 }
-        { Loc 0 0 }
+        { Loc 0 -5 }
         { Offset 0 0 }
     }
     { To
         { ID 64 }
-        { Loc 0 0 }
+        { Loc -131 -18 }
         { Offset 0 0 }
     }
     { IsInclusion True }
+}
+
+Arc 146
+{
+    { Type StateTransitionLink }
+    { From
+        { ID 74 }
+        { Loc 48 141 }
+        { Offset -77 13 }
+    }
+    { To
+        { ID 86 }
+        { Loc -47 191 }
+        { Offset 77 -13 }
+    }
 }
 
 Link 66
@@ -992,4 +1007,31 @@ Link 146
 {
     { FirstArc 145 }
     { LastArc 145 }
+}
+
+Link 147
+{
+    { FirstArc 146 }
+    { LastArc 146 }
+    { Object
+        { PDMType Link }
+        { MappingName Transition }
+        { ID 6605 }
+        { GUID "UID_52BF4ADF-05E3-4cc9-A7ED-5E7BC57C8E9C" }
+    }
+    { Object
+        { PDMType Note }
+        { MappingName Default }
+        { ID 6607 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionGuard }
+        { ID 6609 }
+    }
+    { Object
+        { PDMType Item }
+        { MappingName TransitionAction }
+        { ID 6608 }
+    }
 }

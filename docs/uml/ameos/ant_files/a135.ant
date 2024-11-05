@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a135" }
+    { Type ObjectAnnotation }
+    { GUID "UID_A4DEACBE-5DAE-460f-8D56-5B3CC5214CD9" }
+}
+
+NodeObject 99999
+{
+    { Name "Profile,ProfileRepository" }
+    { Type UmlAssociation }
+    { ObjectId 13738 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_CC41F318-26AE-4866-8155-1365F5DBFAD2" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 13764 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 13766 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Profile,ProfileRepository" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 13767 }
+}
+

@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a96" }
+    { Type ObjectAnnotation }
+    { GUID "UID_9828705D-8338-41fb-8080-66369CFE96A6" }
+}
+
+NodeObject 99999
+{
+    { Name "Character,Perk" }
+    { Type UmlAssociation }
+    { ObjectId 9219 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_49BD199F-1AF7-400a-9E0E-3231A830497A" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 9243 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 9245 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Character,Perk" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 9246 }
+}
+

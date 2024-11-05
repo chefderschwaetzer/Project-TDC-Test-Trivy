@@ -1,0 +1,53 @@
+FileObject 1
+{
+    { Name "a137" }
+    { Type ObjectAnnotation }
+    { GUID "UID_CD6FDE7A-FBDE-478f-803F-A573A7D77AB6" }
+}
+
+NodeObject 99999
+{
+    { Name "AccountRepository" }
+    { Type UmlClass }
+    { ObjectId 13800 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_1BD24E12-87D5-4fd7-9ACC-18470E48364E" }
+}
+
+NodeObject 99998
+{
+    { Name "accounts" }
+    { Type UmlAttribute }
+    { ObjectId 13801 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_C6CC71BF-E7FA-4167-A53E-95A021DE6C1C" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 13882 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 13884 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "accounts" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 13885 }
+}
+

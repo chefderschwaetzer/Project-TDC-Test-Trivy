@@ -1,0 +1,90 @@
+FileObject 1
+{
+    { Name "a113" }
+    { Type ObjectAnnotation }
+    { GUID "UID_49CACFD7-4507-4167-BB70-B63727BAAD71" }
+}
+
+NodeObject 99999
+{
+    { Name "Account,ToDoList" }
+    { Type UmlAssociation }
+    { ObjectId 10593 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_F1C00ACC-F39A-4ab9-8643-6A9D80FFF856" }
+}
+
+NodeObject 99998
+{
+    { Name "Account" }
+    { Type UmlClass }
+    { ObjectId 7236 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_E9B3AC34-7FF4-4345-A562-960DA5D2D9E7" }
+}
+
+LinkObject 99997
+{
+    { Name "" }
+    { Type UmlRole }
+    { ObjectId 10595 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ToNodeId 99999 }
+    { FromNodeId 99998 }
+    { GUID "UID_E9A91BDE-834F-49c2-82A2-616DB014C3D7" }
+}
+
+NoteObject 2
+{
+    { Type UmlRoleDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 10627 }
+}
+
+ItemObject 3
+{
+    { Type UmlRoleNavigability }
+    { Value "True" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 10637 }
+}
+
+ItemObject 4
+{
+    { Type UmlAggregationType }
+    { Value "Aggregation" }
+    { GuidRef "" }
+    { NoteId 2 }
+    { ObjectId 10638 }
+}
+
+NoteObject 5
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 10630 }
+}
+
+NoteObject 6
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99997 }
+    { ObjectId 10632 }
+}
+
+ItemObject 7
+{
+    { Type ObjectName }
+    { Value "" }
+    { GuidRef "" }
+    { NoteId 6 }
+    { ObjectId 10633 }
+}
+

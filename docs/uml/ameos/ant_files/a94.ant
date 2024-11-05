@@ -1,0 +1,53 @@
+FileObject 1
+{
+    { Name "a94" }
+    { Type ObjectAnnotation }
+    { GUID "UID_17774B5B-5258-494a-8315-A4F03A224BCF" }
+}
+
+NodeObject 99999
+{
+    { Name "Perk" }
+    { Type UmlClass }
+    { ObjectId 8952 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_38F010DA-122F-42d0-AAE1-949A72421664" }
+}
+
+NodeObject 99998
+{
+    { Name "perkID" }
+    { Type UmlAttribute }
+    { ObjectId 8982 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 99999 }
+    { GUID "UID_FC2C2DA3-499D-47c0-A60E-597C355BFCE6" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 9130 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99998 }
+    { ObjectId 9132 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "perkID" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 9133 }
+}
+

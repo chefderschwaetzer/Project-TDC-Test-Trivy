@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a85" }
+    { Type ObjectAnnotation }
+    { GUID "UID_0337AA44-C233-4761-AC4A-BAB702512A78" }
+}
+
+NodeObject 99999
+{
+    { Name "Character" }
+    { Type UmlClass }
+    { ObjectId 7778 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_D1940101-127A-431a-9526-76D0F1AB016A" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 8195 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 8197 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Character" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 8198 }
+}
+

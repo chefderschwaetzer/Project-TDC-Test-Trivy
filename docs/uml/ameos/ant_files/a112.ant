@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a112" }
+    { Type ObjectAnnotation }
+    { GUID "UID_CA6E2823-948A-48aa-B53A-251F0CA01AF4" }
+}
+
+NodeObject 99999
+{
+    { Name "Account,ToDoList" }
+    { Type UmlAssociation }
+    { ObjectId 10593 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_F1C00ACC-F39A-4ab9-8643-6A9D80FFF856" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 10617 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 10619 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Account,ToDoList" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 10620 }
+}
+

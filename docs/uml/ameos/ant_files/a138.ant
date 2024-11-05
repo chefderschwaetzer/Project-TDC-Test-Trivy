@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a138" }
+    { Type ObjectAnnotation }
+    { GUID "UID_CC3C24FC-FCF8-4d28-ADB6-F6AD3A094D51" }
+}
+
+NodeObject 99999
+{
+    { Name "AccountRepository" }
+    { Type UmlClass }
+    { ObjectId 13800 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_1BD24E12-87D5-4fd7-9ACC-18470E48364E" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 13892 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 13894 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "AccountRepository" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 13895 }
+}
+

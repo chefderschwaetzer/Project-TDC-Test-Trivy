@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a91" }
+    { Type ObjectAnnotation }
+    { GUID "UID_D759652D-44D3-4328-B9F8-3D9E37EE7F48" }
+}
+
+NodeObject 99999
+{
+    { Name "Character,Hairstyle" }
+    { Type UmlAssociation }
+    { ObjectId 8880 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_8E65E7C8-8783-4363-8C3E-62D8718FD6EE" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 8904 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 8906 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Character,Hairstyle" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 8907 }
+}
+

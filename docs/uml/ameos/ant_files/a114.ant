@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a114" }
+    { Type ObjectAnnotation }
+    { GUID "UID_AFF297B4-D10D-4699-A417-453E0D0F1295" }
+}
+
+NodeObject 99999
+{
+    { Name "TDC" }
+    { Type UmlClass }
+    { ObjectId 10653 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_8CFE6C1E-1C4A-4168-8BA9-6116FBCD32D5" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 10687 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 10689 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "TDC" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 10690 }
+}
+

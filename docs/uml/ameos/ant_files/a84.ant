@@ -1,0 +1,43 @@
+FileObject 1
+{
+    { Name "a84" }
+    { Type ObjectAnnotation }
+    { GUID "UID_670348FF-864F-4ecc-9E11-2694F48E92B1" }
+}
+
+NodeObject 99999
+{
+    { Name "Account" }
+    { Type UmlClass }
+    { ObjectId 7236 }
+    { AnnotFileId 1 }
+    { Sig "" }
+    { ScopeNodeId 0 }
+    { GUID "UID_E9B3AC34-7FF4-4345-A562-960DA5D2D9E7" }
+}
+
+NoteObject 2
+{
+    { Type UmlExtensibilityDefinition }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 7682 }
+}
+
+NoteObject 3
+{
+    { Type GenericObject }
+    { Name "" }
+    { OwnerId 99999 }
+    { ObjectId 7684 }
+}
+
+ItemObject 4
+{
+    { Type ObjectName }
+    { Value "Account" }
+    { GuidRef "" }
+    { NoteId 3 }
+    { ObjectId 7685 }
+}
+
