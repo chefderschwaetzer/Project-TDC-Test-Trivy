@@ -17,7 +17,9 @@
                    HorizontalOptions="FillAndExpand"
                    VerticalOptions="Center" 
                    IsReadOnly="False" 
-                   Grid.Column="1" />
+                   Grid.Column="1" 
+                   Completed="DescriptionChanged"
+                   Unfocused="DescriptionChanged"/>
         </Grid>
 
     </VerticalStackLayout>
