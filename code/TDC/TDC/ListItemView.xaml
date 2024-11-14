@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TDC.ListItemView"
-             Title="ListItemView">
+             x:Class="TDC.ListItemView">
 
     <VerticalStackLayout Padding="20" Spacing="10">
         <!-- To-Do Item -->
@@ -12,11 +11,12 @@
 
             <!-- Textfeld für To-Do Item -->
             <Entry x:Name="TaskEntry" 
-                   Placeholder="Enter task here"
+                   Placeholder="Enter task here..."
                    HorizontalOptions="FillAndExpand"
                    VerticalOptions="Center"
                    IsReadOnly="False" />
         </HorizontalStackLayout>
     </VerticalStackLayout>
 
-</ContentPage>
+</ContentView>
+

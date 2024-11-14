@@ -4,41 +4,48 @@
              x:Class="TDC.ToDoListView"
              Title="To Do List">
 
-    <VerticalStackLayout Padding="20" Spacing="10">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
 
-        <!-- Title (editable) -->
-        <Grid VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="Auto" />
-            </Grid.ColumnDefinitions>
+            <!-- Title (editable) -->
+            <Grid VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
 
-            <Entry x:Name="TitleEntry"
-                   Placeholder="Enter list title..."
+                <Entry x:Name="TitleEntry"
+                       Placeholder="Enter list title..."
+                       FontSize="Large"
+                       HorizontalOptions="FillAndExpand"
+                       HorizontalTextAlignment="Center"
+                       IsReadOnly="True"
+                       Grid.Column="0" />
+            </Grid>
+
+            <!-- Dynamically generated ListItemViews -->
+            <StackLayout x:Name="ItemsContainer"
+                         HorizontalOptions="FillAndExpand"/>
+
+            <Grid VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="NewListItemBtn"
+                        Text="Add new item" 
+                        SemanticProperties.Hint="Add Item"
+                        Clicked="OnNewItemClicked"
+                        HorizontalOptions="Fill"/>
+            </Grid>
+
+            <!-- Points -->
+            <Label Text="Points: "
                    FontSize="Large"
-                   HorizontalOptions="FillAndExpand"
-                   HorizontalTextAlignment="Center"
-                   IsReadOnly="True"
-                   Grid.Column="0" />
-        </Grid>
+                   HorizontalOptions="Center"/>
 
-        <Grid VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="Auto" />
-            </Grid.ColumnDefinitions>
+        </VerticalStackLayout>
+    </ScrollView>
 
-            <Button x:Name="NewListItemBtn"
-                    Text="Add new item" 
-                    SemanticProperties.Hint="Add Item"
-                    Clicked="OnNewItemClicked"
-                    HorizontalOptions="Fill"/>
-        </Grid>
-
-        <!-- Points -->
-        <Label Text="Points: "
-               FontSize="Large"
-               HorizontalOptions="Center"/>
-
-    </VerticalStackLayout>
 </ContentPage>
