@@ -4,12 +4,12 @@ public class ToDoList
     private List<ListItem> items = new List<ListItem>();
     private List<Profile> members = new List<Profile>();
     private string name;
-    private string id;
+    private readonly string id; // <base-id>-<member-id>
 
     #region constructors 
     public ToDoList(string name)
     {
-        //TO-DO: add logic with new id etc
+        id = "0"; //TO-DO: Add logic with repository
         items = new List<ListItem>();
         members = new List<Profile>();
         this.name = name;
@@ -17,7 +17,7 @@ public class ToDoList
 
     public ToDoList(int id)
     {
-        //TO-DO: init object via ID
+        //TO-DO: init object via ID -> perhaps change into signature of base-id and user
     }
     #endregion
 

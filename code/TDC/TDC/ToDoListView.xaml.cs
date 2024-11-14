@@ -1,26 +1,22 @@
+using TDC.Models;
+
 namespace TDC;
 
 public partial class ToDoListView : ContentPage
 {
+    private ToDoList list;
 	public ToDoListView()
 	{
 		InitializeComponent();
-	}
-
-    private void OnEditButtonClicked(object sender, EventArgs e)
-    {
-        ImageButton? imageButton = sender as ImageButton;
-        TitleEntry.IsReadOnly = !TitleEntry.IsReadOnly;
-        if (imageButton != null)
-        {
-            if (TitleEntry.IsReadOnly)
-            {
-                imageButton.BackgroundColor = Color.FromArgb("#424242");
-                return;
-            }
-
-            imageButton.BackgroundColor = Color.FromArgb("#800080");
-            
-        }
+        list = new ToDoList("<no-name>"); //can't be saved with default name! -> user has to enter name
     }
+
+    #region listeners
+
+    private void OnNewItemClicked(object sender, EventArgs e)
+    {
+        list.AddItem(new ListItem("", [], 5));
+    }
+
+    #endregion
 }

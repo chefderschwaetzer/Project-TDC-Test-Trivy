@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDC.ListItemView"
+             Title="ListItemView">
+
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <!-- To-Do Item -->
+        <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" Spacing="10">
+            <!-- Checkbox -->
+            <CheckBox x:Name="TaskCheckBox" VerticalOptions="Center" />
+
+            <!-- Textfeld für To-Do Item -->
+            <Entry x:Name="TaskEntry" 
+                   Placeholder="Enter task here"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="Center"
+                   IsReadOnly="False" />
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+
+</ContentPage>
