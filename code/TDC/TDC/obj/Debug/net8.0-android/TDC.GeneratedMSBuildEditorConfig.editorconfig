@@ -45,3 +45,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TDC.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/HannahMoog/Project-TDC/code/TDC/TDC/ToDoListView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TDC.ToDoListView.xaml
+build_metadata.AdditionalFiles.TargetPath = ToDoListView.xaml
+build_metadata.AdditionalFiles.RelativePath = ToDoListView.xaml

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:svg="clr-namespace:Microsoft.Maui.Controls;assembly=Microsoft.Maui.Controls"
+             x:Class="TDC.ToDoListView"
+             Title="To-Do List">
+
+    <VerticalStackLayout Padding="20" Spacing="10">
+
+        <!-- Title (editable) -->
+        <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+            <Entry x:Name="TitleEntry"
+                   Text="List Title"
+                   FontSize="Large"
+                   HorizontalOptions="FillAndExpand"
+                   IsReadOnly="True"/>
+            <ImageButton Clicked="OnEditButtonClicked" BackgroundColor="#424242">
+                <ImageButton.Source>
+                    <FontImageSource Glyph="&#xE8B8;" FontFamily="FluentUISystemIcons" Color="White" Size="24" />
+                </ImageButton.Source>
+            </ImageButton>
+        </HorizontalStackLayout>
+
+        <!-- Container for To-Do-List-Items -->
+        <CollectionView x:Name="ToDoListCollection" VerticalOptions="FillAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10" ColumnDefinitions="*,Auto">
+                        <!-- Placeholder -->
+                        <Label Text="{Binding Text}" FontSize="Medium" Grid.Column="0"/>
+                        <Label Text="{Binding Points, StringFormat='{0} pt.'}" Grid.Column="1" FontSize="Small" VerticalOptions="Center"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- Points -->
+        <Label Text="Points: "
+               FontSize="Large"
+               HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>

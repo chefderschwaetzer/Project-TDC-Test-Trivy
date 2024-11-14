@@ -55,6 +55,12 @@
     <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\FluentSystemIcons-Filled.ttf">
+      <PackagePath>FluentSystemIcons-Filled.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\FluentSystemIcons-Regular.ttf">
+      <PackagePath>FluentSystemIcons-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
@@ -213,6 +219,36 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_filled.scale-100.png">
+      <PackagePath>ic_fluent_code_text_edit_20_filled.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_filled.scale-125.png">
+      <PackagePath>ic_fluent_code_text_edit_20_filled.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_filled.scale-150.png">
+      <PackagePath>ic_fluent_code_text_edit_20_filled.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_filled.scale-200.png">
+      <PackagePath>ic_fluent_code_text_edit_20_filled.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_filled.scale-400.png">
+      <PackagePath>ic_fluent_code_text_edit_20_filled.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_regular.scale-100.png">
+      <PackagePath>ic_fluent_code_text_edit_20_regular.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_regular.scale-125.png">
+      <PackagePath>ic_fluent_code_text_edit_20_regular.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_regular.scale-150.png">
+      <PackagePath>ic_fluent_code_text_edit_20_regular.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_regular.scale-200.png">
+      <PackagePath>ic_fluent_code_text_edit_20_regular.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_regular.scale-400.png">
+      <PackagePath>ic_fluent_code_text_edit_20_regular.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TDC.deps.json">
       <PackagePath>TDC.deps.json</PackagePath>

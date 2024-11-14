@@ -2,17 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TDC.MainPage"
-             >
+>
 
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-
-            <Label
-                Text="Hello, World!"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1" />
 
             <Label
                 Text="Welcome to Project TDC!"
@@ -21,10 +16,10 @@
                 SemanticProperties.Description="Welcome to Project TDC!" />
 
             <Button
-                x:Name="CounterBtn"
-                Text="Click me" 
+                x:Name="NewListBtn"
+                Text="Create new list" 
                 SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
+                Clicked="OnNewListClicked"
                 HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>

@@ -357,3 +357,15 @@ C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.
 C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\FluentSystemIcons-Filled.ttf
+C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\FluentSystemIcons-Regular.ttf
+C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_filled.scale-100.png
+C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_filled.scale-125.png
+C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_filled.scale-150.png
+C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_filled.scale-200.png
+C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_filled.scale-400.png
+C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_regular.scale-100.png
+C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_regular.scale-125.png
+C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_regular.scale-150.png
+C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_regular.scale-200.png
+C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ic_fluent_code_text_edit_20_regular.scale-400.png

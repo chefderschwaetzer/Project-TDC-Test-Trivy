@@ -1,3 +1,5 @@
+FluentSystemIcons-Filled.ttf
+FluentSystemIcons-Regular.ttf
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
 appicon.ico
@@ -51,6 +53,16 @@ dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
+ic_fluent_code_text_edit_20_filled.scale-100.png
+ic_fluent_code_text_edit_20_filled.scale-125.png
+ic_fluent_code_text_edit_20_filled.scale-150.png
+ic_fluent_code_text_edit_20_filled.scale-200.png
+ic_fluent_code_text_edit_20_filled.scale-400.png
+ic_fluent_code_text_edit_20_regular.scale-100.png
+ic_fluent_code_text_edit_20_regular.scale-125.png
+ic_fluent_code_text_edit_20_regular.scale-150.png
+ic_fluent_code_text_edit_20_regular.scale-200.png
+ic_fluent_code_text_edit_20_regular.scale-400.png
 splashSplashScreen.scale-100.png
 splashSplashScreen.scale-125.png
 splashSplashScreen.scale-150.png
