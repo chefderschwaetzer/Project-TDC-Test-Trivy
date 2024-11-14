@@ -3,20 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TDC.ListItemView">
 
-    <VerticalStackLayout Padding="20" Spacing="10">
-        <!-- To-Do Item -->
-        <HorizontalStackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" Spacing="10">
-            <!-- Checkbox -->
-            <CheckBox x:Name="TaskCheckBox" VerticalOptions="Center" />
+    <!-- overall layout -->
+    <VerticalStackLayout Padding="5" Spacing="5" HorizontalOptions="FillAndExpand">
 
-            <!-- Textfeld für To-Do Item -->
+        <!-- To-Do Item -->
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="Center" ColumnDefinitions="Auto,*">
+            <!-- Checkbox -->
+            <CheckBox x:Name="TaskCheckBox" VerticalOptions="Center" Grid.Column="0" />
+
+            <!-- description text field -->
             <Entry x:Name="TaskEntry" 
                    Placeholder="Enter task here..."
                    HorizontalOptions="FillAndExpand"
-                   VerticalOptions="Center"
-                   IsReadOnly="False" />
-        </HorizontalStackLayout>
+                   VerticalOptions="Center" 
+                   IsReadOnly="False" 
+                   Grid.Column="1" />
+        </Grid>
+
     </VerticalStackLayout>
 
 </ContentView>
-

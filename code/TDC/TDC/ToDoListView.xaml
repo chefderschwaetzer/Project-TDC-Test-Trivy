@@ -19,7 +19,7 @@
                        FontSize="Large"
                        HorizontalOptions="FillAndExpand"
                        HorizontalTextAlignment="Center"
-                       IsReadOnly="True"
+                       IsReadOnly="False"
                        Grid.Column="0" />
             </Grid>
 
