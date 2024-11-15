@@ -46,15 +46,6 @@ public partial class ToDoListView : ContentPage
         }
         // Speichere die Liste
         listRepository.AddList(list);
-        PrintListToConsole();
-    }
-    private void PrintListToConsole()
-    {
-        // Gehe alle ListItems der ToDoList durch und gib deren Eigenschaften aus
-        foreach (var item in list.GetItems())
-        {
-            Debug.WriteLine($"Description: {item.GetDescription()}, Done: {item.IsDone()}, Effort: {item.GetEffort()}");
-        }
     }
     #endregion
 }

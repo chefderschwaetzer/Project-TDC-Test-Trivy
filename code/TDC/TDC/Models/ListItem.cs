@@ -14,9 +14,10 @@ public class ListItem
         effort = 0;
     }
 
-    public ListItem(string description, List<Profile> finishedMembers, int effort)
+    public ListItem(string description, bool done, List<Profile> finishedMembers, int effort)
     {
         this.description = description;
+        this.done = done;
         this.finishedMembers = finishedMembers;
         this.effort = effort;
     }

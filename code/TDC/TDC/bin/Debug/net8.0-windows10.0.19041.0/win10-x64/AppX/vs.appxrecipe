@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\PC\Source\Repos\Project-TDC\code\TDC\TDC\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-11-15T21:12:43.715</Modified>
+      <Modified>2024-11-15T22:38:06.205</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\Source\Repos\Project-TDC\code\TDC\TDC\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\TDC.dll">
       <PackagePath>TDC.dll</PackagePath>
-      <Modified>2024-11-15T21:12:43.397</Modified>
+      <Modified>2024-11-15T22:38:05.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\Source\Repos\Project-TDC\code\TDC\TDC\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TDC.exe</PackagePath>
-      <Modified>2024-11-15T21:12:43.401</Modified>
+      <Modified>2024-11-15T22:38:05.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\PC\Source\Repos\Project-TDC\code\TDC\TDC\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
