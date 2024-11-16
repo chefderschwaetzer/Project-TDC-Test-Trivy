@@ -40,7 +40,14 @@
                         HorizontalOptions="Fill"/>
             </Grid>
 
-            <!-- Points -->
+            <Button x:Name="SaveListBtn"
+                        Text="Save List" 
+                        SemanticProperties.Hint="Save List"
+                        Clicked="OnSaveListClicked"
+                        HorizontalOptions="Fill">
+            </Button>
+
+                <!-- Points -->
             <Label Text="Points: "
                    FontSize="Large"
                    HorizontalOptions="Center"/>

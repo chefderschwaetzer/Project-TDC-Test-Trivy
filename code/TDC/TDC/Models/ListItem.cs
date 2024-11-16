@@ -20,6 +20,13 @@ public class ListItem
         this.finishedMembers = finishedMembers;
         this.effort = effort;
     }
+    public ListItem(string description, bool done, List<Profile> finishedMembers, int effort)
+    {
+        this.description = description;
+        this.done = done;
+        this.finishedMembers = finishedMembers;
+        this.effort = effort;
+    }
     #endregion
 
     #region getters & setters

@@ -1,4 +1,3 @@
-using System.Threading.Tasks;
 using TDC.Models;
 
 namespace TDC;
@@ -6,29 +5,45 @@ namespace TDC;
 public partial class ToDoListView : ContentPage
 {
     private ToDoList list;
-	public ToDoListView()
+    private ListRepository listRepository;
+    public ToDoListView()
 	{
-		InitializeComponent();
-        list = new ToDoList("<no-name>"); //can't be saved with default name! -> user has to enter name
+        InitializeComponent();
+        listRepository = new ListRepository();
+        list = new ToDoList("");
     }
 
     #region listeners
 
     private void OnNewItemClicked(object sender, EventArgs e)
     {
-        list.AddItem(new ListItem("", [], 5));
+        list.AddItem(new ListItem("", new List<Profile>(), 5));
 
-        // clear container
-        ItemsContainer.Children.Clear();
-
-        foreach (var item in list.GetItems())
-        {
-            var listItemView = new ListItemView(item);
-
-            // add as child element
-            ItemsContainer.Children.Add(listItemView);
-        }
+        var listItemView = new ListItemView(list.GetItems().Last());
+        ItemsContainer.Children.Add(listItemView);
     }
+    private async void OnSaveListClicked(object sender, EventArgs e)
+    {
+        // get name from input field
+        string listName = TitleEntry.Text?.Trim();
 
+        // if no name entered, ask user to put name
+        if (string.IsNullOrWhiteSpace(listName))
+        {
+            var result = await DisplayPromptAsync("Enter List Name", "Please provide a name for the list:");
+            if (!string.IsNullOrWhiteSpace(result))
+            {
+                listName = result;
+                TitleEntry.Text = result;
+            }
+        }
+        // set name of list
+        if (!string.IsNullOrWhiteSpace(listName))
+        {
+            list.SetName(listName);
+        }
+        // save list
+        listRepository.AddList(list);
+    }
     #endregion
 }

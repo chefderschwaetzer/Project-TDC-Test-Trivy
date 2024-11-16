@@ -9,7 +9,7 @@
         <!-- To-Do Item -->
         <Grid HorizontalOptions="FillAndExpand" VerticalOptions="Center" ColumnDefinitions="Auto,*">
             <!-- Checkbox -->
-            <CheckBox x:Name="TaskCheckBox" VerticalOptions="Center" Grid.Column="0" />
+            <CheckBox x:Name="TaskCheckBox" VerticalOptions="Center" Grid.Column="0" CheckedChanged="OnCheckBoxCheckedChanged"/>
 
             <!-- description text field -->
             <Entry x:Name="TaskEntry" 

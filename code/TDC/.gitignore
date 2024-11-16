@@ -1,0 +1,16 @@
+# Ignoriere die .vs Verzeichnisse
+.vs/
+
+# Ignoriere den Platforms Ordner (plattform-spezifische Dateien)
+Platforms/
+
+# Ignoriere bin und obj Ordner (Build-Ausgaben)
+bin/
+obj/
+
+# Ignoriere andere temporäre Dateien
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
