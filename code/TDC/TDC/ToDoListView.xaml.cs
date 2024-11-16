@@ -10,15 +10,17 @@ public partial class ToDoListView : ContentPage, IOnPageKeyDown
 {
     private ToDoList list;
     private ListRepository listRepository;
+
+    #region constructors
     public ToDoListView()
 	{
         InitializeComponent();
         listRepository = new ListRepository();
         list = new ToDoList("");
     }
+    #endregion
 
     #region listeners
-
     private void OnNewItemClicked(object sender, EventArgs e)
     {
         list.AddItem(new ListItem("", new List<Profile>(), 5));
@@ -26,6 +28,7 @@ public partial class ToDoListView : ContentPage, IOnPageKeyDown
         var listItemView = new ListItemView(list.GetItems().Last());
         ItemsContainer.Children.Add(listItemView);
     }
+
     private async void OnSaveListClicked(object sender, EventArgs e)
     {
         // get name from input field
@@ -57,7 +60,7 @@ public partial class ToDoListView : ContentPage, IOnPageKeyDown
 
             if(view.FindByName<Entry>("TaskEntry").IsFocused)
             {
-                view.OnItemRemove();
+                RemoveItem(view);
                 return;
             }
         }
@@ -72,5 +75,14 @@ public partial class ToDoListView : ContentPage, IOnPageKeyDown
         return false;
     }
     #endif
+    #endregion
+
+    #region privates
+
+    private void RemoveItem(ListItemView view)
+    {
+        list.RemoveItem(view.GetItem());
+        ItemsContainer.Children.Remove(view);
+    }
     #endregion
 }

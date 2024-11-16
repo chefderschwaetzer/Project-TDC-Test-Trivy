@@ -28,11 +28,6 @@ public partial class ListItemView : ContentView
         item.ToggleDone();  // Toggle the done status of the item when the checkbox is checked or unchecked
     }
 
-    public void OnItemRemove()
-    {
-        int i = 0;
-    }
-
     #endregion
 
     #region publics

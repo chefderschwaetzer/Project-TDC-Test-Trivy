@@ -11,11 +11,20 @@
         public ListRepository()
         {
             filePath = Path.Combine(projectPath, "lists.csv");
+            #if ANDROID
+             string directoryPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal);
+                if (!Directory.Exists(directoryPath))
+                {
+                    Directory.CreateDirectory(directoryPath); // Verzeichnis erstellen, wenn es nicht existiert
+                }
+
+                filePath = Path.Combine(directoryPath, "lists.csv");
+            #endif
             lists = new List<ToDoList>();
             LoadAllListsFromFile();
         }
 
-        #endregion
+#endregion
 
         #region publics
 
