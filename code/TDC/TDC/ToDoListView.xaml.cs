@@ -50,10 +50,27 @@ public partial class ToDoListView : ContentPage, IOnPageKeyDown
         listRepository.AddList(list);
     }
 
-    #if ANDROID
-        public bool OnPageKeyDown(Keycode keyCode, KeyEvent e) {
-            return true;
+    private void BackspaceEmitted()
+    {
+        foreach (var item in ItemsContainer.Children) {
+            ListItemView view = (ListItemView)item;
+
+            if(view.FindByName<Entry>("TaskEntry").IsFocused)
+            {
+                view.OnItemRemove();
+                return;
+            }
         }
+    }
+
+    #if ANDROID
+    public bool OnPageKeyDown(Keycode keyCode, KeyEvent e) {
+        if(keyCode == Keycode.Del) {
+                BackspaceEmitted();
+                return true;
+        }
+        return false;
+    }
     #endif
-#endregion
+    #endregion
 }
