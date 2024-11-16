@@ -23,11 +23,7 @@ public partial class ToDoListView : ContentPage
 
         foreach (var item in list.GetItems())
         {
-            var listItemView = new ListItemView();
-
-            // change text of task entry if existing description exists
-            var taskEntry = listItemView.FindByName<Entry>("TaskEntry");
-            taskEntry.Text = item.GetDescription();
+            var listItemView = new ListItemView(item);
 
             // add as child element
             ItemsContainer.Children.Add(listItemView);
