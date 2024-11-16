@@ -1,8 +1,12 @@
 using TDC.Models;
 
+#if ANDROID
+using Android.Views;
+#endif
+
 namespace TDC;
 
-public partial class ToDoListView : ContentPage
+public partial class ToDoListView : ContentPage, IOnPageKeyDown
 {
     private ToDoList list;
     private ListRepository listRepository;
@@ -45,5 +49,11 @@ public partial class ToDoListView : ContentPage
         // save list
         listRepository.AddList(list);
     }
-    #endregion
+
+    #if ANDROID
+        public bool OnPageKeyDown(Keycode keyCode, KeyEvent e) {
+            return true;
+        }
+    #endif
+#endregion
 }

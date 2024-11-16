@@ -18,6 +18,7 @@ public partial class ListItemView : ContentView
     #endregion
 
     #region event listeners
+
     private void DescriptionChanged(object sender, EventArgs e)
     {
         item.SetDescription(this.FindByName<Entry>("TaskEntry").Text);
@@ -26,6 +27,7 @@ public partial class ListItemView : ContentView
     {
         item.ToggleDone();  // Toggle the done status of the item when the checkbox is checked or unchecked
     }
+
     #endregion
 
     #region publics
@@ -34,5 +36,6 @@ public partial class ListItemView : ContentView
     {
         return item;
     }
-    #endregion
+
+#endregion
 }

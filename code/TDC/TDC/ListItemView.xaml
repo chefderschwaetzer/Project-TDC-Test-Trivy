@@ -19,7 +19,8 @@
                    IsReadOnly="False" 
                    Grid.Column="1" 
                    Completed="DescriptionChanged"
-                   Unfocused="DescriptionChanged"/>
+                   Unfocused="DescriptionChanged"
+                   />
         </Grid>
 
     </VerticalStackLayout>
