@@ -1,5 +1,3 @@
-using System.Diagnostics;
-using System.Threading.Tasks;
 using TDC.Models;
 
 namespace TDC;
@@ -10,9 +8,9 @@ public partial class ToDoListView : ContentPage
     private ListRepository listRepository;
     public ToDoListView()
 	{
-		InitializeComponent();
+        InitializeComponent();
         listRepository = new ListRepository();
-        list = new ToDoList("<no-name>"); //can't be saved with default name! -> user has to enter name
+        list = new ToDoList("");
     }
 
     #region listeners
@@ -26,10 +24,10 @@ public partial class ToDoListView : ContentPage
     }
     private async void OnSaveListClicked(object sender, EventArgs e)
     {
-        // Hole den Text aus dem TitleEntry
+        // get name from input field
         string listName = TitleEntry.Text?.Trim();
 
-        // Wenn der Benutzer keinen Namen eingegeben hat, fordere ihn dazu auf
+        // if no name entered, ask user to put name
         if (string.IsNullOrWhiteSpace(listName))
         {
             var result = await DisplayPromptAsync("Enter List Name", "Please provide a name for the list:");
@@ -39,12 +37,12 @@ public partial class ToDoListView : ContentPage
                 TitleEntry.Text = result;
             }
         }
-        // Setze den Namen der Liste
+        // set name of list
         if (!string.IsNullOrWhiteSpace(listName))
         {
             list.SetName(listName);
         }
-        // Speichere die Liste
+        // save list
         listRepository.AddList(list);
     }
     #endregion
