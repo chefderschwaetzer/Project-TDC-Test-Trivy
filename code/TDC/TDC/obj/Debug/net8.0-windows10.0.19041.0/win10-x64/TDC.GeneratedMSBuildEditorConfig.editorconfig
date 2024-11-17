@@ -8,7 +8,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TDC
-build_property.ProjectDir = C:\Users\HannahMoog\Project-TDC\code\TDC\TDC\
+build_property.ProjectDir = C:\Users\PC\Source\Repos\Project-TDC\code\TDC\TDC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotOptimizerEnabled = true
@@ -18,44 +18,47 @@ build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut =
 build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
 build_property.CsWinRTMergeReferencedActivationFactories = 
 build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/HannahMoog/Project-TDC/code/TDC/TDC/App.xaml]
+[C:/Users/PC/Source/Repos/Project-TDC/code/TDC/TDC/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TDC.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/HannahMoog/Project-TDC/code/TDC/TDC/AppShell.xaml]
+[C:/Users/PC/Source/Repos/Project-TDC/code/TDC/TDC/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TDC.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/HannahMoog/Project-TDC/code/TDC/TDC/ListItemView.xaml]
+[C:/Users/PC/Source/Repos/Project-TDC/code/TDC/TDC/ListItemView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TDC.ListItemView.xaml
 build_metadata.AdditionalFiles.TargetPath = ListItemView.xaml
 build_metadata.AdditionalFiles.RelativePath = ListItemView.xaml
 
-[C:/Users/HannahMoog/Project-TDC/code/TDC/TDC/MainPage.xaml]
+[C:/Users/PC/Source/Repos/Project-TDC/code/TDC/TDC/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TDC.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/HannahMoog/Project-TDC/code/TDC/TDC/Resources/Styles/Colors.xaml]
+[C:/Users/PC/Source/Repos/Project-TDC/code/TDC/TDC/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TDC.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/HannahMoog/Project-TDC/code/TDC/TDC/Resources/Styles/Styles.xaml]
+[C:/Users/PC/Source/Repos/Project-TDC/code/TDC/TDC/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TDC.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/HannahMoog/Project-TDC/code/TDC/TDC/ToDoListView.xaml]
+[C:/Users/PC/Source/Repos/Project-TDC/code/TDC/TDC/ToDoListView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = TDC.ToDoListView.xaml
 build_metadata.AdditionalFiles.TargetPath = ToDoListView.xaml
