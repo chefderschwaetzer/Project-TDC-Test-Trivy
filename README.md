@@ -1,81 +1,152 @@
-# Project TDC 📝
-Eine kompetitive To-Do List Android-App, die es Freunden ermöglicht, sich im Abarbeiten ihrer To-Do Lists zu messen.
-
-## Inhaltsverzeichnis
-- [Über das Projekt](#über-das-projekt)
-- [Vision](#vision)
-- [Technologien](#technologien)
-- [Team](#team)
-- [Scrum-Setup](#scrum-setup)
-- [Funktionale Anforderungen](#funktionale-anforderungen)
-- [Nichtfunktionale Anforderungen](#nichtfunktionale-anforderungen)
-- [UI-Mockup](#ui-mockup)
-- [Klassendiagramm](#klassendiagramm)
-- [Projektaufbau](#projektaufbau)
-- [Abschluss Sprint 1](#abschluss-sprint-1)
-- [Abschluss Sprint 2](#abschluss-sprint-2)
-
-## Über das Projekt
-Project TDC ist eine Android-App, die das Abarbeiten von To-Do Listen zu einem Wettbewerb unter Freunden macht. Erledigte Aufgaben geben Punkte, die zur Verbesserung eines virtuellen Avatars genutzt werden können. Avatare können anschließend gegeneinander antreten, um den Fortschritt der Benutzer visuell darzustellen.
-
-## Vision
-Unsere Vision ist es, eine innovative und benutzerfreundliche App zu liefern, die Stabilität und Leistung bietet. Wir setzen auf agile Entwicklungsmethoden und bewährte Technologien, um die beste User Experience zu gewährleisten.
-
-## Technologien
-- **Programmiersprache:** C#
-- **Framework:** .NET MAUI für plattformübergreifende Entwicklung
-- **Entwicklungsumgebung:** Visual Studio
-- **Versionsverwaltung:** Git (Main Branch, Feature-Branches, etc.)
-- **CI/CD und Datenbanken:** Docker und Jenkins (Integration in späteren Sprints)
-- **Tests:** Unit-Tests und REST-Tests (Integration in späteren Sprints)
-
-## Team
-- **Hannah** - Product Owner / Entwickler
-- **Christian** - Scrum-Master / Entwickler
-- **Julian** - Blog-Master / Entwickler
-- **Leo** - Entwickler
-- **Nico** - Entwickler
-
-## Scrum-Setup
-- **Sprintlänge:** 2 Wochen
-- **Meetings:** 
-  - Weekly: Jeden Montag von 20-21:30 Uhr
-  - Retrospektiven: Alle zwei Wochen
-  - Dailys: Nach Bedarf
-- **Story Points:** 1 Story Point = 1h (in 2-er Potenzschritten: 2, 4, 8, 16)
-- **Plattform:** Jira (Scrum-Board, Backlogs, Aufgabenverfolgung)
-
-## Funktionale Anforderungen
-1. **Benutzerkonto-Verwaltung**
-   - Registrierung, Anmeldung, Profil bearbeiten, Passwort zurücksetzen
-2. **To-Do-Listen-Verwaltung**
-   - Listen erstellen, Aufgaben hinzufügen/bearbeiten/löschen/abschließen
-3. **Freunde-Verwaltung**
-   - Freunde finden, hinzufügen, und anzeigen lassen
-
-## Nichtfunktionale Anforderungen
-- **Ladezeiten:** Minimale Wartezeiten für Listenaktionen
-- **Benutzerfreundlichkeit:** Intuitive UI für schnelle Einarbeitung
-- **Zuverlässigkeit:** Weniger als 1% Abstürze pro 1000 Interaktionen
-- **Reaktionsfähigkeit:** Anpassung an verschiedene Bildschirmgrößen
-
-## UI-Mockup
-Das Hauptdesign zeigt aktive To-Do Listen. Eine Freundesliste und das Profil sind über den Avatar erreichbar. Verschiedene Ansichten ermöglichen das einfache Wechseln zwischen Listen. Die Punkte der Benutzer sind sichtbar, die Spielfunktion folgt nach den Hauptfunktionen.
-
-## Klassendiagramm
-Wir haben ein Klassendiagramm entwickelt, das die notwendigen Klassen und ihre Beziehungen abbildet. Das Design folgt den SOLID-Prinzipien (Single Responsibility und Open-closed) für wartbaren und erweiterbaren Code.
-  --> diese sind unter /docs zu finden
-
-## Projektaufbau
-Das Projekt ist in Visual Studio mit Git aufgesetzt. Mit .NET MAUI haben wir eine erste Testoberfläche für Android entwickelt, die die App auf Mobilgeräten synchronisiert und debugging ermöglicht.
-
-## Abschluss Sprint 1
-Der erste Sprint diente hauptsächlich der Planung und Vorbereitung. Die Entwicklungsumgebungen wurden eingerichtet, und wir haben uns über Projektziele und Anforderungen abgestimmt.
-
-## Abschluss Sprint 2
-Nach dem Setup des Projekts haben wir erste Entwicklungsarbeit begonnen und eine „Hello World“-Demo erstellt. Die Entwicklungsumgebung ermöglicht nun die mobile Simulation, und wir sind startklar für die nächsten Features.
+# **Project TDC 📝**  
+*Eine kompetitive To-Do List Android-App, die es Freunden ermöglicht, sich im Abarbeiten ihrer To-Do Lists zu messen.*  
 
 ---
 
-Falls ihr Fragen zu unserem Projekt oder den Anforderungen habt, schreibt uns gerne in die Kommentare.
+## **Inhaltsverzeichnis**  
+1. [Über das Projekt](#über-das-projekt)  
+2. [Vision](#vision)  
+3. [Technologien](#technologien)  
+4. [Team](#team)  
+5. [Scrum-Setup](#scrum-setup)  
+6. [Funktionale Anforderungen](#funktionale-anforderungen)  
+7. [Nichtfunktionale Anforderungen](#nichtfunktionale-anforderungen)  
+8. [UI-Mockup](#ui-mockup)  
+9. [Klassendiagramm](#klassendiagramm)  
+10. [Projektaufbau](#projektaufbau)  
+11. [Git-Workflow](#git-workflow)  
+12. [Sprint-Zusammenfassungen](#sprint-zusammenfassungen)  
+
+---
+
+## **Über das Projekt**  
+**Project TDC** verwandelt To-Do-Listen in einen interaktiven Wettbewerb.  
+- **Features:** Punkte für erledigte Aufgaben, ein personalisierbarer Avatar und eine Freundesliste.  
+- **Ziel:** Steigere deinen Avatar und trete gegen andere an, um deinen Fortschritt sichtbar zu machen.  
+
+
+
+## **Vision**  
+Unsere Vision ist es, eine **benutzerfreundliche und stabile** App zu entwickeln, die:  
+- **Spaß** in den Alltag bringt.  
+- Mit einer **intuitiven UI** und **starker Performance** glänzt.  
+- Agile Methoden und moderne Technologien nutzt, um kontinuierliche Verbesserungen zu garantieren.  
+
+
+
+## **Technologien**  
+- **Programmiersprache:** C#  
+- **Framework:** .NET MAUI (Cross-Platform)  
+- **IDE:** Visual Studio  
+- **Versionsverwaltung:** Git  
+- **CI/CD:** Docker, Jenkins (spätere Integration)  
+- **Tests:** Unit- und Integrationstests (geplant ab Sprint 3)  
+
+
+
+## **Team**  
+| Name         | Rolle                  |  
+|--------------|------------------------|  
+| **Hannah**   | Product Owner, Entwickler |  
+| **Christian**| Scrum-Master, Entwickler |  
+| **Julian**   | Blog-Master, Entwickler  |  
+| **Leo**      | Entwickler              |  
+| **Nico**     | Entwickler              |  
+
+
+
+## **Scrum-Setup**  
+- **Sprint-Länge:** 2 Wochen  
+- **Meetings:**  
+  - Weekly: Montag, 20–21:30 Uhr  
+  - Retrospektiven: alle 2 Wochen  
+  - Dailys: bei Bedarf  
+- **Story Points:** 1 SP = 1 Stunde (2er Potenz: 2, 4, 8, 16)  
+- **Tools:** Jira (Backlog, Scrum-Board)  
+
+
+
+## **Funktionale Anforderungen**  
+1. **Benutzerverwaltung:**  
+   - Registrierung, Anmeldung, Profilbearbeitung, Passwort zurücksetzen.  
+2. **To-Do-Listen:**  
+   - Erstellen, Bearbeiten, Abschließen und Löschen von Aufgaben.  
+3. **Freunde:**  
+   - Freunde hinzufügen, verwalten und Ranglisten anzeigen.  
+
+
+
+## **Nichtfunktionale Anforderungen**  
+- **Performance:** Ladezeiten unter 1 Sekunde.  
+- **Usability:** Einfache Bedienung ohne lange Einarbeitungszeit.  
+- **Stabilität:** Weniger als 1% Abstürze pro 1000 Aktionen.  
+- **Responsiveness:** Optimierung für verschiedene Geräte und Bildschirmgrößen.  
+
+
+
+## **UI-Mockup**  
+Das Design ist darauf ausgelegt, Informationen klar darzustellen:  
+- **Hauptbildschirm:** Aktive Listen und Fortschrittspunkte.  
+- **Avatar:** Über das Profil erreichbar.  
+- **Navigation:** Schnellzugriff auf Freundesliste und Einstellungen.  
+
+*(UI-Skizzen sind in `/docs` verfügbar.)*  
+
+
+
+## **Klassendiagramm**  
+Das Klassendiagramm beschreibt die wichtigsten Komponenten und ihre Beziehungen.  
+- **Designprinzipien:** SOLID (Single Responsibility, Open/Closed).  
+- **Dateipfad:** `/docs/klassendiagramm.pdf`  
+
+---
+## **Projektaufbau**  
+- **Codebasis:** Visual Studio (.NET MAUI)  
+- **Git:** Strukturierte Branches für Übersichtlichkeit.  
+- **Android-Simulation:** Debugging direkt auf Mobilgeräten oder Emulator.  
+
+
+
+## **Git-Workflow**  
+### **Branch-Struktur**  
+- `main`: Stable Release  
+- `dev`: Aktuelle Entwicklungsbasis  
+- `feature/[TDC-Nummer]`: Neue Features  
+- `bug/[TDC-Nummer]`: Fehlerbehebungen  
+- `architecture/[Änderung]`: Architekturänderungen  
+
+### **Standardanweisungen**
+#### **Standart 'get/set'-Methoden**
+```C#
+private int beispielInt { get; set; }
+```
+#### **Branch erstellen:** 
+>Füge folgende befehle in VS im Workspace aus: `/Project-TDC/code/TDC/TDC`
+```git
+git checkout dev
+git pull  
+git checkout -b feature/<branch-name>
+// Code ändern und anpassen
+git add .
+git commit -m [commitMessage]
+git push
+```
+#### **Pull Request erstellen:**
+>Am besten über GitHub im Browser
+1. Navigiere zum reiter `Pull Requests`
+2. Erstelle `New Pull request`
+3. Wähle deinen Basisbranch aus, in welchen du mergen willst (meist `dev`)
+4. Wähle den Branch, den du in den ausgewählten Basisbranch mergen möchtest (meist dein `feature/TDC-X` branch auf welchem du gearbeitet hast
+5. Erstelle den Pull Request und warte auf ein Review
+
+---
+
+## Sprint Zusammenfassungen
+### Abschluss Sprint 1
+Der erste Sprint diente hauptsächlich der Planung und Vorbereitung. Die Entwicklungsumgebungen wurden eingerichtet, und wir haben uns über Projektziele und Anforderungen abgestimmt.
+
+### Abschluss Sprint 2
+Nach dem Setup des Projekts haben wir erste Entwicklungsarbeit begonnen und eine „Hello World“-Demo erstellt. Die Entwicklungsumgebung ermöglicht nun die mobile Simulation, und wir sind startklar für die nächsten Features.
+
+---
 
