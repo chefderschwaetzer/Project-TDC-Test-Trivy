@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TDC.ListItemView">
+             x:Class="TDC.ListItemView"
+             BindingContext="{Binding Source={RelativeSource Self}}">
 
     <!-- overall layout -->
     <VerticalStackLayout Padding="5" Spacing="5" HorizontalOptions="FillAndExpand">
@@ -12,16 +13,32 @@
             <CheckBox x:Name="TaskCheckBox" VerticalOptions="Center" Grid.Column="0" CheckedChanged="OnCheckBoxCheckedChanged"/>
 
             <!-- description text field -->
-            <Entry x:Name="TaskEntry" 
+            <Entry x:Name="TaskEntry"
                    Placeholder="Enter task here..."
-                   HorizontalOptions="FillAndExpand"
                    VerticalOptions="Center" 
                    IsReadOnly="False" 
                    Grid.Column="1" 
                    Completed="DescriptionChanged"
                    Unfocused="DescriptionChanged"
                    />
+
+            <!--effort picker-->
+            <Picker x:Name="TaskPicker"
+                    HorizontalOptions="End"
+                    Grid.Column="2"
+                    SelectedIndexChanged="OnPickerSelectedIndexChanged">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:Int32}">
+                        <x:Int32>5</x:Int32>
+                        <x:Int32>10</x:Int32>
+                        <x:Int32>15</x:Int32>
+                        <x:Int32>20</x:Int32>
+                        <x:Int32>25</x:Int32>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
         </Grid>
+        
 
     </VerticalStackLayout>
 
