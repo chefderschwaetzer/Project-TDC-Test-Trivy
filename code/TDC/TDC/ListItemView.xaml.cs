@@ -17,6 +17,11 @@ public partial class ListItemView : ContentView
         this.FindByName<Entry>("TaskEntry").Text = item.GetDescription();
         this.FindByName<CheckBox>("TaskCheckBox").IsChecked = item.IsDone(); 
         this.FindByName<Picker>("TaskPicker").SelectedIndex = item.GetEffort() - 1;
+
+        this.LayoutChanged += (sender, e) =>
+        {
+            this.FindByName<Entry>("TaskEntry").Focus();
+        };
     }
 
     #endregion
@@ -34,7 +39,7 @@ public partial class ListItemView : ContentView
         DescriptionChanged(sender, e);
 
         //emit signal to parent
-        NewItemOnEnter.Invoke(this, EventArgs.Empty);
+        NewItemOnEnter.Invoke(this, e);
     }
 
     private void OnCheckBoxCheckedChanged(object sender, CheckedChangedEventArgs e)
@@ -61,6 +66,5 @@ public partial class ListItemView : ContentView
     {
         return item;
     }
-
-#endregion
+    #endregion
 }
