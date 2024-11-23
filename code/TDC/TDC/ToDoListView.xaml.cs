@@ -27,6 +27,7 @@ public partial class ToDoListView : ContentPage, IOnPageKeyDown
 
         var listItemView = new ListItemView(list.GetItems().Last());
         ItemsContainer.Children.Add(listItemView);
+        listItemView.NewItemOnEnter += OnNewItemClicked!;
     }
 
     private async void OnSaveListClicked(object sender, EventArgs e)

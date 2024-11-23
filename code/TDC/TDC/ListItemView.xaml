@@ -18,7 +18,7 @@
                    VerticalOptions="Center" 
                    IsReadOnly="False" 
                    Grid.Column="1" 
-                   Completed="DescriptionChanged"
+                   Completed="EnterPressed"
                    Unfocused="DescriptionChanged"
                    />
 
