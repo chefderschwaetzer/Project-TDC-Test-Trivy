@@ -39,6 +39,8 @@ jobs:
 
     #MAUI workloads installieren
     - name: Install .NET MAUI Workloads
+      if: runner.os == 'Windows'
+      shell: bash
       run: |
         dotnet nuget locals all --clear 
         dotnet workload install maui \
@@ -83,6 +85,8 @@ jobs:
 
     #MAUI workloads installieren
     - name: Install .NET MAUI Workloads
+      if: runner.os == 'Windows'
+      shell: bash
       run: |
         dotnet nuget locals all --clear 
 
