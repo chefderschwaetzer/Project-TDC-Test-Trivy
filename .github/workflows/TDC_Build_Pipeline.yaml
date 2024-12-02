@@ -1,5 +1,5 @@
-yaml
-name: Project TDC Build 
+name: TDC_Build_pipeline
+
 on:
   push:
     branches:
