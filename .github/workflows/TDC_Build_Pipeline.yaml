@@ -63,9 +63,9 @@ jobs:
 
     #Android publishen
     - name : Build Android App
-          shell: bash
-          run: |
-            dotnet publish ./TDC/TDC.sln \
-                -f:net7.0-android \
-                -c:Release \
-                -o:output/android
+      shell: bash
+      run: |
+        dotnet publish ./TDC/TDC.sln \
+            -f:net7.0-android \
+            -c:Release \
+            -o:output/android
