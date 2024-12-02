@@ -51,21 +51,21 @@ jobs:
             
     #Dependences wiederherstellen       
     - name: Restore nuget packages
-      run: dotnet restore ./code/TDC.sln
+      run: dotnet restore ./code/TDC/TDC.sln
       
-    #Loesung bauen  
+    #Loesung bauen  TDC/
     - name: Build solution
-      run: dotnet build --no-restore --configuration Release ./code/TDC.sln
+      run: dotnet build --no-restore --configuration Release ./code/TDC/TDC.sln
     
     #Tests ausführen
     - name: Run tests
-      run: dotnet test --no-build --configuration Release ./code/TDC.sln
+      run: dotnet test --no-build --configuration Release ./code/TDC/TDC.sln
 
     #Android publishen
     - name : Build Android App
       shell: bash
       run: |
-        dotnet publish ./TDC/TDC.sln \
+        dotnet publish ./code/TDC/TDC.sln \
             -f:net7.0-android \
             -c:Release \
             -o:output/android
