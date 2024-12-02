@@ -51,7 +51,7 @@ jobs:
     - name: Update Workloads
       run: dotnet workload update
     
-    #Dependences wiederherstellen       
+    #Dependencies wiederherstellen       
     - name: Restore dependencies
       run: dotnet restore code/TDC/TDC/TDC.csproj
       
@@ -91,7 +91,7 @@ jobs:
 
         dotnet workload list
             
-    #Dependences wiederherstellen       
+    #Dependencies wiederherstellen       
     - name: Restore nuget packages
       run: dotnet restore code/TDC/TDC.sln 
         
