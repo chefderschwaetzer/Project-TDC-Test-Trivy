@@ -1,0 +1,70 @@
+yaml
+name: Project TDC Build 
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+      - dev
+      
+  workflow_dispatch:
+  
+env:
+    DOTNETVERSION: 8.0.x 
+    
+jobs:
+  build:
+    runs-on: windows-2022
+    
+    steps:
+    #Repo auschecken
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    #.NET SDK installieren  
+    - name: Setup .NET SDK ${{env.DOTNETVERSION}}
+          uses: actions/setup-dotnet@v4
+          with:
+            dotnet-version:  '${{ env.DOTNETVERSION }}'
+
+        #Version überprüfen
+        - name: List installed .NET info
+          shell: pwsh
+          run: dotnet --info
+
+        #MAUI workloads installieren
+        - name: Install .NET MAUI Workloads (Windows)
+          if: runner.os == 'Windows'
+          shell: bash
+          run: |
+            dotnet nuget locals all --clear 
+
+            dotnet workload install maui android wasm-tools \
+                --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet8/nuget/v3/index.json \
+                --source https://api.nuget.org/v3/index.json
+
+            dotnet workload list
+            
+    #Dependences wiederherstellen       
+    - name: Restore nuget packages
+      run: dotnet restore ./code/TDC.sln
+      
+    #Loesung bauen  
+    - name: Build solution
+      run: dotnet build --no-restore --configuration Release ./code/TDC.sln
+    
+    #Tests ausführen
+    - name: Run tests
+      run: dotnet test --no-build --configuration Release ./code/TDC.sln
+
+    #Android publishen
+    - name : Build Android App
+          shell: bash
+          run: |
+            dotnet publish ./TDC/TDC.sln \
+                -f:net7.0-android \
+                -c:Release \
+                -o:output/android
