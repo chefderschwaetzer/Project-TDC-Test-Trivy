@@ -40,22 +40,21 @@ jobs:
     - name: Install .NET MAUI Workloads
       if: runner.os == 'Windows'
       shell: bash
-      run: |
-        dotnet nuget locals all --clear 
-
-        dotnet workload install maui android wasm-tools \
-            --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet8/nuget/v3/index.json \
-            --source https://api.nuget.org/v3/index.json
-
-        dotnet workload list
-         
+      #run: |
+      #  dotnet nuget locals all --clear 
+       # dotnet workload install maui android wasm-tools \
+       #     --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet8/nuget/v3/index.json \
+       #     --source https://api.nuget.org/v3/index.json
+       # dotnet workload list
+      run: dotnet workload install maui --ignore-failed-sources
+    
+    #Dependences wiederherstellen       
+    - name: Restore dependencies
+      run: dotnet restore code/TDC/TDC.sln 
+      
     # Windows-Version erstellen
     - name: Build and Publish Windows App (for running on Windows)
-      run: |
-        dotnet publish ./code/TDC/TDC.sln \
-            -f net8.0-windows10.0.19041.0 \
-            -c Release \
-            -o ./output/windows
+      run: dotnet publish code/TDC/TDC.sln -c Release -f net8.0-windows10.0.19041.0 -o ./output/windows --no-restore
   
   buildAndroid:
     runs-on: windows-2022
@@ -91,7 +90,7 @@ jobs:
             
     #Dependences wiederherstellen       
     - name: Restore nuget packages
-      run: dotnet restore ./code/TDC/TDC.sln 
+      run: dotnet restore code/TDC/TDC.sln 
       
     ##Loesung bauen  TDC
     #- name: Build solution
@@ -100,13 +99,8 @@ jobs:
     #Android publishen
     - name : Build Android App
       shell: bash
-      run: |
-        dotnet publish ./code/TDC/TDC.sln \
-            -f:net8.0-android \
-            -c:Release \
-            -o:output/android
-            
+      run: dotnet publish code/TDC/TDC.sln -c:Release -f:net8.0-android -o:output/android --no-restore
+    
     #Tests ausführen
     - name: Run tests
       run: dotnet test --no-build --configuration Release ./code/TDC/TDC.sln
-      
