@@ -36,7 +36,6 @@ jobs:
       shell: pwsh
       run: dotnet --info
       
-
     #MAUI workloads installieren
     - name: Install .NET MAUI Workloads
       if: runner.os == 'Windows'
@@ -52,10 +51,6 @@ jobs:
     - name: Update Workloads
       run: dotnet workload update
     
-    # Runtime Pack sicherstellen
-    #- name: Install Runtime Pack for win-x64
-    #  run: dotnet restore code/TDC/TDC/TDC.csproj -r win-x64
-      
     #Dependences wiederherstellen       
     - name: Restore dependencies
       run: dotnet restore code/TDC/TDC/TDC.csproj
@@ -99,11 +94,7 @@ jobs:
     #Dependences wiederherstellen       
     - name: Restore nuget packages
       run: dotnet restore code/TDC/TDC.sln 
-      
-    ##Loesung bauen
-    #- name: Build solution
-    #  run: dotnet build code/TDC/TDC.sln -c Release -f:net8.0-android --no-restore
-    
+        
     #Android publishen
     - name : Build Android App
       shell: bash
