@@ -26,9 +26,9 @@ jobs:
       
     #.NET SDK installieren  
     - name: Setup .NET SDK ${{env.DOTNETVERSION}}
-          uses: actions/setup-dotnet@v4
-          with:
-            dotnet-version:  '${{ env.DOTNETVERSION }}'
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version:  '${{ env.DOTNETVERSION }}'
 
         #Version überprüfen
         - name: List installed .NET info
