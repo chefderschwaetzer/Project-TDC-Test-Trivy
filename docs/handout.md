@@ -6,11 +6,14 @@
 
 | **Teammitglied** | **Stunden** | **Hauptbeiträge**                                  |
 |-------------------|-------------|-------------------------------------------------  |
-| **Hannah**        | XX h        | Product Owner, UML-Diagramme, Anforderungsanalyse |
-| **Christian**     | XX h        | Scrum-Management, Testing, Backlog-Pflege         |
-| **Julian**        | XX h        | Blog-Master, UI-Mockups, CD                       |
-| **Leo**           | XX h        | Entwicklung, Git-Workflow, Dokumentation          |
-| **Nico**          | XX h        | Entwicklung, Git-Workflow                         |
+|||
+| Hannah        | XX h        | Product Owner, UML-Diagramme, Anforderungsanalyse |
+| Christian     | XX h        | Scrum-Management, Testing, Backlog-Pflege         |
+| ulian        | XX h        | Blog-Master, UI-Mockups, CD                       |
+| Leo           | XX h        | Entwicklung, Git-Workflow, Dokumentation          |
+| Nico          | XX h        | Entwicklung, Git-Workflow                         |
+|||
+| **Team**          | XX h        | Weeklys, Retro, Dailys                            |
 
 ### Stunden pro Workflow/Disziplin
 
