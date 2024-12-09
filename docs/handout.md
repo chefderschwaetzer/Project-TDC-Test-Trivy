@@ -35,7 +35,7 @@
 
 ---
 
-## 3. Architekturstil/-entscheidungen
+## 2. Architekturstil/-entscheidungen
 ![Screenshot 2024-12-09 194201](https://github.com/user-attachments/assets/47e42354-f334-45bc-beb4-afeaf6b94971)
 
 ---
