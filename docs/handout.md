@@ -7,80 +7,62 @@
 | **Teammitglied** | **Stunden** | **Hauptbeiträge**                                  |
 |-------------------|-------------|-------------------------------------------------  |
 |||
-| Hannah        | XX h        | Product Owner, UML-Diagramme, Anforderungsanalyse |
-| Christian     | XX h        | Scrum-Management, Testing, Backlog-Pflege         |
-| ulian        | XX h        | Blog-Master, UI-Mockups, CD                       |
-| Leo           | XX h        | Entwicklung, Git-Workflow, Dokumentation          |
-| Nico          | XX h        | Entwicklung, Git-Workflow                         |
+| Hannah        | 17 h        | Product Owner, UML-Diagramme, Anforderungsanalyse |
+| Christian     | 15 h        | Scrum-Management, Testing, Backlog-Pflege         |
+| Julian        | 22 h        | Blog-Master, UI-Mockups, CD                       |
+| Leo           | 12 h        | Entwicklung, Git-Workflow, Dokumentation          |
+| Nico          | 10 h        | Entwicklung, Git-Workflow                         |
 |||
-| **Team**          | XX h        | Weeklys, Retro, Dailys                            |
+| **Team**          | 60 h        | Weeklys, Retro, Dailys                            |
 
 ### Stunden pro Workflow/Disziplin
 
-| **Workflow**              | **Stunden** |
+| **Disziplin**              | **Stunden** |
 |----------------------------|-------------|
-| Anforderungsanalyse        | XX h        |
-| Projektmanagement          | XX h        |
-| Design/Mockups             | XX h        |
-| Entwicklung/Implementierung| XX h        |
+| Projektmanagement          | 68 h        |
+| Implementierung            | 48 h        |
+| Analyse und Entwurf        | 12 h        |
+| Anforderungen              | 04 h        |
+| Infrastruktur              | 04 h        |
 
 ### Stunden pro Phase
 
 | **Phase**         | **Stunden** |
 |--------------------|-------------|
-| Initialisierung    | XX h        |
-| Ausarbeitung       | XX h        |
-| Entwicklungsstart  | XX h        |
+| Konzeption       | 79 h        |
+| Konstruktion     | 06 h        |
+| Ausarbeitung     | 51 h        |
 
 ---
 
-## 2. Architekturstil/-entscheidungen
+## 3. Architekturstil/-entscheidungen
+![Screenshot 2024-12-09 194201](https://github.com/user-attachments/assets/47e42354-f334-45bc-beb4-afeaf6b94971)
+
+---
+
+## 3. Architekturstil/-entscheidungen
 
 ### **Architekturstil**: 
-- **MVC (Model-View-Controller)**
 - **Serviceorientiert**
   
 **Begründung**:
-- **Trennung der Logik**: Erleichtert spätere Wartung und Tests.
-- **Plattformunabhängigkeit**: Durch .NET MAUI Unterstützung für Android und iOS. (Prio. Android)
+- Serviceorientiert bietet die größte Flexibilität und Skalierbarkeit, indem es die einzelnen Teile des Systems entkoppelt und eine einfache Erweiterung ermöglicht, ohne das gesamte System zu beeinflussen.
 
 ---
 
-## 3. Softwaretools/Plattformen/Techniken
+## 4. Softwaretools/Plattformen/Techniken
 
 ### **Technologien**
 - **.NET MAUI**: Cross-Platform Framework für plattformübergreifende Entwicklung.
 - **C#**: Programmiersprache.
 - **Visual Studio**: Entwicklungsumgebung.
+- **MVVM (Model-View-ViewModel)**
 
 ### **Tools**
-- **GitHub**: Versionskontrolle.
+- **Git**: Versionskontrolle.
+- **GitHub**: Repository, Pipeline und Blog-Posts.
 - **Jira**: Projektmanagement.
 - **Figma**: UI-Design.
+- **ameos**: UML-Diagramme.
 
 ---
-
-## Präsentationsstruktur
-
-### **1. Projektziel/Vision**
-- **Ziel**: To-Do-Listen gamifizieren, um Motivation und Spaß zu steigern.
-- **Vision**: Ein benutzerfreundliches, responsives und stabiles Tool für Wettbewerbe unter Freunden.
-
-### **2. Architekturentscheidungen**
-- **Warum MVC gewählt wurde**: Trennung der Logik, Plattformunabhängigkeit.
-- **Vorteile von .NET MAUI**: Vereinfachte plattformübergreifende Entwicklung.
-
-### **3. Entwicklungsmuster & Tech-Stack**
-- **CI/CD**: Geplant mit Jenkins und Docker.
-- **Echtzeitaktualisierungen: Geplant durch WebSockets**
-  **Designelemente: Geplant mit .NetMauiMaterials**
-
-### **4. Live-Demo**
-- **Aktuelle Implementierung zeigt**:
-  - Erstellen und Verwalten von To-Do-Listen.
-  - Punktevergabe für erledigte Aufgaben.
-  - Aufgabe als erledigt markieren.
-
-### **5. Projektmanagement-Erkenntnisse**
-- **Effektive Teamkommunikation**: Durch Jira erleichtert.
-- **Herausforderungen**: Synchronisation von Features und Testläufen.
