@@ -1,20 +1,19 @@
 # Project-TDC
 ## Softwareanforderungen
 
-### 1. Einleitung
+### 1. Projektziel / Vision
 
-#### 1.1 Übersicht
-(Was sind die Verkaufsargumente bzw. Alleinstellungsmerkmale Ihrer Software?)
+#### 1.1 Motivation
+To-Do Listen effizienter und spielerisch gestalten.
 
-#### 1.2 Geltungsbereich
-(Was wird in diesem Dokument behandelt (nicht behandelt)? Ist es für Ihr gesamtes System oder ein Subsystem? Deckt es sowohl funktionale als auch nichtfunktionale Anforderungen ab? (Werden Sie einige Anforderungen in ein anderes Dokument auslagern?))
+#### 1.2 Ziel
+Nutzer durch ein Belohnungs- und Wettkampfsystem motivieren ihre Aufgaben zu erledigen.
 
-#### 1.3 Definitionen, Akronyme und Abkürzungen
-(Definitionen aller Begriffe, Akronyme und Abkürzungen, die für die ordnungsgemäße Interpretation dieses Dokuments erforderlich sind.)
+#### 1.3 Nutzen
+Steigerung der Produktivität durch Gamification und soziale Interaktion.
 
-#### 1.4 Referenzen
-(Eine vollständige Liste aller referenzierten Dokumente. Jedes Dokument sollte anhand von Titel, Datum und Veröffentlichungsorganisation identifiziert werden. Sie können auch Hyperlinks einfügen, um die Referenzen bequem zu öffnen.)
-
+#### 1.4 Lanfristiges Ziel
+Eine Plattform schaffen, die persönliche Organisation und Spaß kombiniert.
 
 ### 2. Funktionale Anforderungen
 Dieser Abschnitt beschreibt die funktionalen Anforderungen für die To-Do-Competition-App. Es soll als Grundlage für die Entwicklung, das Testen und die Wartung des Systems dienen.
