@@ -88,25 +88,18 @@ jobs:
     - name: Run tests
       run: dotnet test --no-build --configuration Release ./code/TDC/TDC.sln
 
-  cve-scan:
+  trivyscan:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Repository auschecken
         uses: actions/checkout@v4
-
-      # Dependency-Check benötigt Java, also stellen wir Java bereit
-      - name: Set up Java
-        uses: actions/setup-java@v3
+  
+      - name: Run Trivy vulnerability scanner
+        uses: aquasecurity/trivy-action@7b7aa264d83dc58691451798b4d117d53d21edfe
         with:
-          distribution: 'temurin'
-          java-version: '11'
-
-      # Führe OWASP Dependency-Check aus
-      - name: Run OWASP Dependency-Check
-        uses: dependency-check/action@v2
-        with:
-          # Pfad zum Code; passe ggf. an, falls dein Projekt in einem Unterordner liegt
-          scan: '../../../'
-          # Ausgabeformate: ALL erzeugt z. B. HTML, XML und JSON Reports
-          format: 'ALL'
-          output-directory: dependency-check-report
+          scan-type: 'fs'                # Wechselt den Scan-Modus auf das Dateisystem
+          path: '.'                      # Gibt den Pfad an, der gescannt werden soll (z.B. das gesamte Repository)
+          format: 'template'
+          template: '@/contrib/sarif.tpl'
+          output: 'trivy-results.sarif'
+          severity: 'CRITICAL,HIGH'
