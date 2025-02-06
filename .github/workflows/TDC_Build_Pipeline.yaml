@@ -21,22 +21,18 @@ jobs:
     runs-on: windows-2022
     
     steps:
-    #Repo auschecken
     - name: Checkout repository
       uses: actions/checkout@v4
       
-    #.NET SDK installieren  
     - name: Setup .NET SDK ${{env.DOTNETVERSION}}
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version:  '${{env.DOTNETVERSION }}'
+        dotnet-version: '${{env.DOTNETVERSION }}'
 
-    #Version überprüfen
     - name: List installed .NET info
       shell: pwsh
       run: dotnet --info
       
-    #MAUI workloads installieren
     - name: Install .NET MAUI Workloads
       if: runner.os == 'Windows'
       shell: bash
@@ -47,59 +43,65 @@ jobs:
             --source https://api.nuget.org/v3/index.json
         dotnet workload list
     
-    # Workloads aktualisieren
     - name: Update Workloads
       run: dotnet workload update
     
-    #Dependencies wiederherstellen       
     - name: Restore dependencies
       run: dotnet restore code/TDC/TDC/TDC.csproj
       
-    # Windows-Version erstellen
     - name: Build and Publish Windows App 
       run: dotnet publish code/TDC/TDC/TDC.csproj -c Release -f net8.0-windows10.0.19041.0 -o ./output/windows 
-  
+
   buildAndroid:
     runs-on: windows-2022
     
     steps:
-    #Repo auschecken
     - name: Checkout repository
       uses: actions/checkout@v4
       
-    #.NET SDK installieren  
     - name: Setup .NET SDK ${{env.DOTNETVERSION}}
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version:  '${{env.DOTNETVERSION }}'
+        dotnet-version: '${{env.DOTNETVERSION }}'
 
-    #Version überprüfen
     - name: List installed .NET info
       shell: pwsh
       run: dotnet --info
 
-    #MAUI workloads installieren
     - name: Install .NET MAUI Workloads
       if: runner.os == 'Windows'
       shell: bash
       run: |
         dotnet nuget locals all --clear 
-
         dotnet workload install maui android wasm-tools \
             --source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet8/nuget/v3/index.json \
             --source https://api.nuget.org/v3/index.json
-
         dotnet workload list
             
-    #Dependencies wiederherstellen       
     - name: Restore nuget packages
       run: dotnet restore code/TDC/TDC.sln 
         
-    #Android publishen
-    - name : Build Android App
+    - name: Build Android App
       shell: bash
       run: dotnet publish code/TDC/TDC/TDC.csproj -c:Release -f:net8.0-android -o:output/android --no-restore
     
-    #Tests ausführen
     - name: Run tests
       run: dotnet test --no-build --configuration Release ./code/TDC/TDC.sln
+
+  buildDocker:
+    runs-on: ubuntu-latest
+    needs: [buildWindows,buildAndroid]
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v1
+
+    - name: Build Docker image
+      run: docker build -t my-app .
+
+    - name: Scan image with Trivy
+      uses: aquasecurity/trivy-action@master
+      with:
+        image-ref: my-app
