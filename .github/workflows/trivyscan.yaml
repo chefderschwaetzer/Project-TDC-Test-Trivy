@@ -1,0 +1,27 @@
+name: Trivy Scan
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    branches:
+      - main
+      - dev
+  workflow_dispatch:
+
+jobs:
+  trivy-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Trivy Scan starten
+        uses: aquasecurity/trivy-action@v0.6.1
+        with:
+          # scan-type 'fs' bedeutet, dass das Dateisystem (also dein Code) gescannt wird
+          scan-type: fs
+          # Pfad zum zu scannenden Verzeichnis – hier wird der Ordner 'code' gescannt.
+          path: './code'
